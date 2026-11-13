@@ -1,0 +1,66 @@
+{
+ "formula": "retail_total_SEK_per_kWh = (1 + VAT) * (spot + supplier_markup + network_energy(t) + energy_tax(year, zone)); all components ex VAT in SEK/kWh; fixed annual/monthly charges excluded (listed below)",
+ "contract_assumption": "hourly-spot (timpris/kvartspris) retail contract so the hourly spot passes through; Swedish monthly-average contracts would use the monthly mean spot instead",
+ "VAT": {
+  "rate": 0.25,
+  "note": "25 % VAT on all parts incl. energy tax (Skattebetalarna; Energimarknadsbyrån)"
+ },
+ "spot": {
+  "source": "elprisetjustnu.se API https://www.elprisetjustnu.se/api/v1/prices/[YEAR]/[MM]-[DD]_[ZONE].json",
+  "upstream": "ENTSO-E Transparency Platform day-ahead prices in EUR, converted by the provider with exchangeratesapi.io rates; may deviate slightly from official Nord Pool SEK prices",
+  "terms": "provider: free and open, 'for anyone, for anything'; asks for attribution 'Elpriser tillhandahålls av Elpriset just nu.se'. Upstream day-ahead results originate from Nord Pool/SDAC; ENTSO-E asks users to respect upstream copyright. Check before redistributing the raw series publicly.",
+  "zones": {
+   "SE3": "Karlstad (also Stockholm)",
+   "SE1": "Luleå"
+  },
+  "coverage": "2022-01-01T00:00Z to 2025-12-31T23:00Z UTC, 0 missing hours in both zones; 60-min products until 2025-09-30T22:00Z, 15-min products afterwards (hourly = mean of 4 quarters)",
+  "not_covered": "2020-2021: elprisetjustnu starts 2021-11-01; Energy-Charts serves SE1/SE3 only under 'private and internal use only' terms (not used); ENTSO-E API needs a personal token (none available); Nord Pool data is licensed"
+ },
+ "energy_tax_SEK_per_kWh_exVAT": {
+  "2022": 0.36,
+  "2023": 0.392,
+  "2024": 0.428,
+  "2025": 0.439,
+  "2026": 0.36,
+  "north_deduction": 0.096,
+  "north_rule": "reduced rate (deduction 9.6 öre/kWh ex VAT) for households in all municipalities of Norrbotten, Västerbotten and Jämtland (and some others): applied to SE1/Luleå",
+  "sources": [
+   "Skatteverket, 'Ändrad skattesats för el från 1 januari 2023' (39.2 öre/kWh; north deduction 9.6 öre/kWh)",
+   "Energimarknadsbyrån, 'Höjd energiskatt på el 2025' (43.9 öre ex VAT; reduced 34.3 öre; Norrbotten, Västerbotten, Jämtland)",
+   "Vattenfall, 'Energiskatt på el för företag' (2024: 42.8 öre ex VAT)",
+   "klarsolsverige.se table incl. VAT: 2022 45.0 öre (= 36.0 ex VAT); enklaelbolaget.se/kalkylverket.se: 2026 36.0 öre ex VAT citing Skatteverket"
+  ],
+  "note": "2022 value rests on secondary tables (45.0 incl VAT) consistent with the 2026 rate being 'the same level as 2022'; not read from a Skatteverket page"
+ },
+ "network_tariff": {
+  "operator": "Vattenfall Eldistribution AB, Säkringsabonnemang (16-63 A) private customers, Tidstariff T4",
+  "used_for_all_years": {
+   "high_load_SEK_per_kWh_inclVAT": 0.67,
+   "other_SEK_per_kWh_inclVAT": 0.268,
+   "high_load_exVAT": 0.536,
+   "other_exVAT": 0.2144,
+   "price_list": "Prislista Säkringsabonnemang 2025-01 Privat (prices incl. VAT); business list 2025-01 gives the same 53.6/21.4 öre ex VAT"
+  },
+  "fixed_charge_SEK_per_year_inclVAT_2025": {
+   "16A": 5050,
+   "20A": 7065,
+   "25A": 8850,
+   "35A": 12140
+  },
+  "2026_reference": {
+   "high_load_inclVAT": 0.765,
+   "other_inclVAT": 0.305,
+   "fixed_20A_inclVAT": 8085,
+   "source": "vattenfalleldistribution.se villa/grupptariff/effektabonnemang pages 2026 (76.5/30.5 öre incl VAT = business 61.2/24.4 öre ex VAT)"
+  },
+  "high_load_definition": "weekdays 06-22 local time in January, February, March, November, December; excluded weekdays: nyårsdagen, trettondedag jul, långfredag, annandag påsk, julafton, juldagen, annandag jul, nyårsafton (Vattenfall price lists, tillämpningsbestämmelser). Local clock = Swedish official time incl. DST",
+  "ambiguity": "Vattenfall's grupptariff page states holidays falling Mon-Fri count as high-price time, while the villa page and price-list PDFs exclude them; the package excludes them (affects at most 8 weekdays x 16 h per year)",
+  "deviation": "2022-2024 T4 prices were not retrieved: the 2025 list is applied to 2022-2025. Karlstad's real DSO is Karlstads El- och Stadsnät and Luleå's is Luleå Energi Elnät; Vattenfall T4 is used as a documented Swedish time-of-use template, not as the local tariff. Power (kW) tariffs (Vattenfall effektavgift from Oct 2025 for some customers; Ellevio effekttariff) are not modelled."
+ },
+ "supplier_markup": {
+  "value_SEK_per_kWh_exVAT": 0.084,
+  "composition": "Vattenfall variable contract: fixed spot markup 7.00 öre/kWh ex VAT + fixed electricity-certificate fee 1.40 öre/kWh ex VAT (Vattenfall 'Prishistorik över rörligt elpris', valid from 19 June 2023 and from December 2024)",
+  "excluded": "Vattenfall's variable purchasing (profile) costs and monthly fee are not included",
+  "alternative": "Energimarknadsbyrån: average supplier markup for villa customers ~13.0 öre/kWh in May 2025 (VAT basis not stated on the page)"
+ }
+}

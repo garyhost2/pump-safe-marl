@@ -1,0 +1,266 @@
+[
+ {
+  "name": "karlstad2025_SE3_none_reactive",
+  "set": "karlstad:2025@SE3",
+  "start": "monday",
+  "hours": 672,
+  "ctl": "reactive",
+  "regime": "none",
+  "spinup_years": 5
+ },
+ {
+  "name": "karlstad2025_SE3_none_mpc_band",
+  "set": "karlstad:2025@SE3",
+  "start": "monday",
+  "hours": 672,
+  "ctl": "mpc_band",
+  "regime": "none",
+  "spinup_years": 5,
+  "kw": {
+   "band": [
+    20,
+    22
+   ],
+   "horizon": 24,
+   "forecast": "causal"
+  }
+ },
+ {
+  "name": "karlstad2025_SE3_weekly_bottom20_60_1h_reactive",
+  "set": "karlstad:2025@SE3",
+  "start": "monday",
+  "hours": 672,
+  "ctl": "reactive",
+  "regime": "weekly_bottom20_60_1h",
+  "spinup_years": 5
+ },
+ {
+  "name": "karlstad2025_SE3_weekly_bottom20_60_1h_mpc_band",
+  "set": "karlstad:2025@SE3",
+  "start": "monday",
+  "hours": 672,
+  "ctl": "mpc_band",
+  "regime": "weekly_bottom20_60_1h",
+  "spinup_years": 5,
+  "kw": {
+   "band": [
+    20,
+    22
+   ],
+   "horizon": 24,
+   "forecast": "causal"
+  }
+ },
+ {
+  "name": "karlstad2025_SE3_daily_whole_60_1h_reactive",
+  "set": "karlstad:2025@SE3",
+  "start": "monday",
+  "hours": 672,
+  "ctl": "reactive",
+  "regime": "daily_whole_60_1h",
+  "spinup_years": 5
+ },
+ {
+  "name": "karlstad2025_SE3_daily_whole_60_1h_mpc_band",
+  "set": "karlstad:2025@SE3",
+  "start": "monday",
+  "hours": 672,
+  "ctl": "mpc_band",
+  "regime": "daily_whole_60_1h",
+  "spinup_years": 5,
+  "kw": {
+   "band": [
+    20,
+    22
+   ],
+   "horizon": 24,
+   "forecast": "causal"
+  }
+ },
+ {
+  "name": "karlstad2025_SE3_w551_70_3min_reactive",
+  "set": "karlstad:2025@SE3",
+  "start": "monday",
+  "hours": 672,
+  "ctl": "reactive",
+  "regime": "w551_70_3min",
+  "spinup_years": 5,
+  "regime_tol_k": 1.0
+ },
+ {
+  "name": "karlstad2025_SE3_w551_70_3min_mpc_band",
+  "set": "karlstad:2025@SE3",
+  "start": "monday",
+  "hours": 672,
+  "ctl": "mpc_band",
+  "regime": "w551_70_3min",
+  "spinup_years": 5,
+  "kw": {
+   "band": [
+    20,
+    22
+   ],
+   "horizon": 24,
+   "forecast": "causal"
+  },
+  "regime_tol_k": 1.0
+ },
+ {
+  "name": "karlstad2025_SE4_none_reactive",
+  "set": "karlstad:2025@SE4",
+  "start": "monday",
+  "hours": 672,
+  "ctl": "reactive",
+  "regime": "none",
+  "spinup_years": 5
+ },
+ {
+  "name": "karlstad2025_SE4_none_mpc_band",
+  "set": "karlstad:2025@SE4",
+  "start": "monday",
+  "hours": 672,
+  "ctl": "mpc_band",
+  "regime": "none",
+  "spinup_years": 5,
+  "kw": {
+   "band": [
+    20,
+    22
+   ],
+   "horizon": 24,
+   "forecast": "causal"
+  }
+ },
+ {
+  "name": "karlstad2025_SE4_weekly_bottom20_60_1h_reactive",
+  "set": "karlstad:2025@SE4",
+  "start": "monday",
+  "hours": 672,
+  "ctl": "reactive",
+  "regime": "weekly_bottom20_60_1h",
+  "spinup_years": 5
+ },
+ {
+  "name": "karlstad2025_SE4_weekly_bottom20_60_1h_mpc_band",
+  "set": "karlstad:2025@SE4",
+  "start": "monday",
+  "hours": 672,
+  "ctl": "mpc_band",
+  "regime": "weekly_bottom20_60_1h",
+  "spinup_years": 5,
+  "kw": {
+   "band": [
+    20,
+    22
+   ],
+   "horizon": 24,
+   "forecast": "causal"
+  }
+ },
+ {
+  "name": "karlstad2025_SE4_daily_whole_60_1h_reactive",
+  "set": "karlstad:2025@SE4",
+  "start": "monday",
+  "hours": 672,
+  "ctl": "reactive",
+  "regime": "daily_whole_60_1h",
+  "spinup_years": 5
+ },
+ {
+  "name": "karlstad2025_SE4_daily_whole_60_1h_mpc_band",
+  "set": "karlstad:2025@SE4",
+  "start": "monday",
+  "hours": 672,
+  "ctl": "mpc_band",
+  "regime": "daily_whole_60_1h",
+  "spinup_years": 5,
+  "kw": {
+   "band": [
+    20,
+    22
+   ],
+   "horizon": 24,
+   "forecast": "causal"
+  }
+ },
+ {
+  "name": "karlstad2025_SE4_w551_70_3min_reactive",
+  "set": "karlstad:2025@SE4",
+  "start": "monday",
+  "hours": 672,
+  "ctl": "reactive",
+  "regime": "w551_70_3min",
+  "spinup_years": 5,
+  "regime_tol_k": 1.0
+ },
+ {
+  "name": "karlstad2025_SE4_w551_70_3min_mpc_band",
+  "set": "karlstad:2025@SE4",
+  "start": "monday",
+  "hours": 672,
+  "ctl": "mpc_band",
+  "regime": "w551_70_3min",
+  "spinup_years": 5,
+  "kw": {
+   "band": [
+    20,
+    22
+   ],
+   "horizon": 24,
+   "forecast": "causal"
+  },
+  "regime_tol_k": 1.0
+ },
+ {
+  "name": "karlstad2025_SE3_thermia_weekly_end_top_unfiltered",
+  "set": "karlstad:2025@SE3",
+  "start": "monday",
+  "hours": 672,
+  "ctl": "thermia_weekly",
+  "kw": {
+   "end_sensor": "top"
+  },
+  "regime": "none",
+  "filtered": false,
+  "spinup_years": 5
+ },
+ {
+  "name": "karlstad2025_SE3_thermia_weekly_end_middle_unfiltered",
+  "set": "karlstad:2025@SE3",
+  "start": "monday",
+  "hours": 672,
+  "ctl": "thermia_weekly",
+  "kw": {
+   "end_sensor": "middle"
+  },
+  "regime": "none",
+  "filtered": false,
+  "spinup_years": 5
+ },
+ {
+  "name": "karlstad2025_SE3_thermia_weekly_end_weighted_unfiltered",
+  "set": "karlstad:2025@SE3",
+  "start": "monday",
+  "hours": 672,
+  "ctl": "thermia_weekly",
+  "kw": {
+   "end_sensor": "weighted"
+  },
+  "regime": "none",
+  "filtered": false,
+  "spinup_years": 5
+ },
+ {
+  "name": "karlstad2025_SE3_thermia_weekly_end_top_filtered",
+  "set": "karlstad:2025@SE3",
+  "start": "monday",
+  "hours": 672,
+  "ctl": "thermia_weekly",
+  "kw": {
+   "end_sensor": "top"
+  },
+  "regime": "none",
+  "filtered": true,
+  "spinup_years": 5
+ }
+]

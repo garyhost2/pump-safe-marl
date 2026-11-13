@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+data/
+outputs/
+citylearn_schemas/*/schema.json
+citylearn_schemas/_subsets/
+third_party/
+.citylearn_cache/
+
+# Downloaded and built data (python -m data_pipeline); THERMIA_DATA moves it elsewhere
+data/

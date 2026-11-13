@@ -1,0 +1,2380 @@
+{
+ "note": "computed 2026-11-13 from the reference data on the development machine: stems_sweden_data_v1 (built 2026-10-26, SE2/SE4 added 2026-11-13), dhw_v2_packages (2026-10-26), CityLearn v2.6.0b1 dataset cache and the tx_travis_8b / tx_travis_8b_ev schemas",
+ "digests": [
+  "sha256 of the decompressed content",
+  "sha256 of the file",
+  "sha256 of the schema with machine paths replaced by {CITYLEARN_DATASETS} and {SCHEMAS}"
+ ],
+ "files": {
+  "sweden/stems_sweden_data_v1/weather/weather_karlstad.csv": {
+   "sha256": "5d3eb2cef98ae80cbdcfe96040aac1702fe85adf8364a8e2741e6a3b0112aa3f",
+   "bytes": 1838537,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/weather/weather_lulea.csv": {
+   "sha256": "08d82a3bf3bad35673dd282e96f34317d9d1e4de1fff05628ffaf56817be3ef7",
+   "bytes": 1847489,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/weather/weather_qc.json": {
+   "sha256": "824f62b8229035b498b93ba5f23ebb5d93b0f45f7cb5ea5df3c174fff2c7c09c",
+   "bytes": 4310,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/price/price_SE1.csv": {
+   "sha256": "58d931965ff0cf0fd76863833df6d41719558d7cbee34083c62e8728e6440c9b",
+   "bytes": 2019267,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/price/price_SE2.csv": {
+   "sha256": "f7ca4b72e663ea49b3b7e1b2a5cd9f30a9f5fa6cef4f2accdb785ad16aed7b95",
+   "bytes": 2019378,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/price/price_SE3.csv": {
+   "sha256": "73c58cc4fa4dfe4fc10774a4b7a4bd082a052d34f561c16e7f204c901957352b",
+   "bytes": 2010305,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/price/price_SE4.csv": {
+   "sha256": "b76285387eaec99dadf2af79c7091a692c9116e1dbbb87fbea34e98f3069ef52",
+   "bytes": 2010500,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/price/price_qc.json": {
+   "sha256": "10945bd7db998b65c11a9e7277178d627e185eeaa3c0f7f29130243d5a470040",
+   "bytes": 5676,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/price/tariff_composition.json": {
+   "sha256": "3eac9b03f70d9494c972f686d7d348c1b9f6b1e1cd03cb30a5f28642bbab6ec7",
+   "bytes": 4958,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/houses/betsi_era_statistics.json": {
+   "sha256": "3ea820d90bf0e9366261b973c088ef97360082e59b7b76ae658819f8ae6d807e",
+   "bytes": 2846,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/houses/cold_water_karlstad.csv": {
+   "sha256": "6913d9bdee55f918f906f1641ebe0b376e3addb70beb53e60e09f6228099058b",
+   "bytes": 284,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/houses/cold_water_karlstad_params.json": {
+   "sha256": "c091f7f5412f53f9ccbcb17dd853e4dd7f80e5ee8bc00f497ccbc85386d85eb1",
+   "bytes": 120,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/houses/cold_water_lulea.csv": {
+   "sha256": "e253a704e92c200c0bff0182f8a57aee0a8719e7e1728f147f34de52bb45e7f4",
+   "bytes": 278,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/houses/cold_water_lulea_params.json": {
+   "sha256": "3d32a7004199fb37a9a1598a3d8caf6240d9b3b8effbe76696ae0d831647befa",
+   "bytes": 120,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/houses/houses.json": {
+   "sha256": "e8ac379cb985e54eee7236eadeef301b637c7b76e487a5574bf52be3d73ca770",
+   "bytes": 15983,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/ground/ground_sites.json": {
+   "sha256": "7fc81d7e8d3fb4ae274f23ada878bc5cdbc0de34b975d53fe2f7a0f3bb74a2b7",
+   "bytes": 4041,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_1min_events.csv.gz": {
+   "sha256": "6ff1ffb619ccb01eb8c8ffe5397be9e4a22bc14cf479fee31aa7c006793c7d9f",
+   "bytes": 2411882,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_hourly_2020.csv": {
+   "sha256": "4de52ee05eca4a3d7c611f27be74541bc7bf689e094da90ab4dec8d622dce6d0",
+   "bytes": 396945,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_hourly_2021.csv": {
+   "sha256": "04f6bf38ad28bbd92c8163b6e9ec21e7aac6d2f92a6ab7a52edd69aeabbf3896",
+   "bytes": 395468,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_hourly_2022.csv": {
+   "sha256": "e3cac2c5b3a098b9aa534f8dd0e5c873e56ebe24e73c77fb30778afe74a9a778",
+   "bytes": 394834,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_hourly_2023.csv": {
+   "sha256": "c0e8e806fff5b82a8d685deeedbbc4426f47689dad53f478d84e281175768e08",
+   "bytes": 395262,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_hourly_2024.csv": {
+   "sha256": "48d2eb9da27a4b145071ec23513aed331a7aac9d9dad74e62a611ecaf552de50",
+   "bytes": 396507,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_hourly_2025.csv": {
+   "sha256": "43d09b518207f2df6878a7d076dfa311a827f318b5017e44b982b9c02cecc940",
+   "bytes": 395363,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house1_2020.csv": {
+   "sha256": "5fc48d19df6d74f9f66ce717567135fb75f07ae9e0b37d0796df65cd6328ca7c",
+   "bytes": 2664269,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house1_2021.csv": {
+   "sha256": "8bb369df9c237118cc127b7eb3e9751511b632a7fc5090a23f2bd1bd576c940f",
+   "bytes": 2657241,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house1_2022.csv": {
+   "sha256": "243a11ababd6abf3e37e5e270002ed141bd717dc6f143f3181155478059f6159",
+   "bytes": 2657137,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house1_2023.csv": {
+   "sha256": "32144dbde9a12529785500602e0844317f8f5dd7a90ee9c97afcd6bb41f087ec",
+   "bytes": 2656957,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house1_2024.csv": {
+   "sha256": "a69102f59131402b13c9bdf0c086af60500242063986a3263e71d39d0b555a03",
+   "bytes": 2664637,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house1_2025.csv": {
+   "sha256": "d877302b665782d88bd15c33b950c38e75783f50f895a484013267b76eddcc25",
+   "bytes": 2657074,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house2_2020.csv": {
+   "sha256": "ac27a315a2c3f90cc6f3b2f96ec363b57359c214718306f4988348c82524613f",
+   "bytes": 2680079,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house2_2021.csv": {
+   "sha256": "4e10e34785b99a9ca68f955c71878effa9de7ccb1b7b92ce3fe3b930116f3919",
+   "bytes": 2671899,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house2_2022.csv": {
+   "sha256": "e2161f4467cfe9bee34b8e8413f13e515712c75e52d830b4765ac85b25e06711",
+   "bytes": 2672223,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house2_2023.csv": {
+   "sha256": "3e365e5f1cd226613fdec1c1b1e0d26e78f3eff5ee1a51ad88b9b5e4776d15a6",
+   "bytes": 2672410,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house2_2024.csv": {
+   "sha256": "c38c27557c93f59a370ec071c3cc90c96078dd2effbbf371995dc294602f6d08",
+   "bytes": 2680069,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house2_2025.csv": {
+   "sha256": "a1dba88955cc018e8291035af56943846dcbf8ccdd3c0e8e5d4f68d3675ee992",
+   "bytes": 2673035,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house3_2020.csv": {
+   "sha256": "a202d47a4747d81bd0363b0a3dcd3c3009a001fa1c54b7a2d81e1531557a59f0",
+   "bytes": 2688829,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house3_2021.csv": {
+   "sha256": "c9d6cb8932c16ea362f1cb7c5b7289d3cc06ba65f230f36e9007e83705b5c100",
+   "bytes": 2680811,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house3_2022.csv": {
+   "sha256": "b88ad6609c2e118be213c7453b0b855db8c3b38b2df0b5ed61af78f85056894b",
+   "bytes": 2680625,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house3_2023.csv": {
+   "sha256": "d93c65c318b0f09995aaa0c5fdec254b81c4325228228947d99fc1a4ffd4236a",
+   "bytes": 2680534,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house3_2024.csv": {
+   "sha256": "520539cc2b675a22803de3c47025180a2faede3586571139b5be75b7d2d2004c",
+   "bytes": 2687753,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house3_2025.csv": {
+   "sha256": "dcb44b5657d99a313940183195b8054e22c477220392a14fbc93dc8f8c8c5649",
+   "bytes": 2680703,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house4_2020.csv": {
+   "sha256": "d9bbc36be561536053db811cee37cea4782babec0b312e5517fc2cda95a61540",
+   "bytes": 2706302,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house4_2021.csv": {
+   "sha256": "c60180d7d7bf4c5a914320d59f0394c2b7dd3f334c71b00d41b1949cca119441",
+   "bytes": 2699096,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house4_2022.csv": {
+   "sha256": "b1fdc5c14e5b71d09431331191f322fb0d0bf93edb40d34839a71c38de39b178",
+   "bytes": 2699177,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house4_2023.csv": {
+   "sha256": "567674327b108a0911b43134c26ee7f659b53538a3c4c3e295a41202bc65292d",
+   "bytes": 2699269,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house4_2024.csv": {
+   "sha256": "f09a36436a89cfb686a4639e222c070e60cdb2727a0548ccc3b5477fada2d48e",
+   "bytes": 2706416,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house4_2025.csv": {
+   "sha256": "154f8667dc2c44992e311b970d172c30242561ec8dfb70ac7c4d25586cecbed0",
+   "bytes": 2698994,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house5_2020.csv": {
+   "sha256": "998e2820ec6c3c2f9c98d16fe3e71f9617e96e3676c288150957cb9df2be0215",
+   "bytes": 2712809,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house5_2021.csv": {
+   "sha256": "5dd089db6bfe5cf07ba8bd3a99bbf8cb3c818e89db367cc679c3656c2132d46c",
+   "bytes": 2705256,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house5_2022.csv": {
+   "sha256": "e6953302e44fb188545ae9b129e92fa767220ec7c5740f51ddd7cd9d1ed2ff72",
+   "bytes": 2704751,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house5_2023.csv": {
+   "sha256": "c827c234bde16508a5cfe2b46e07fbba065ee18a5c47a285d6f9376c1eec4df1",
+   "bytes": 2704357,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house5_2024.csv": {
+   "sha256": "e59256c85f821bd6c8c0084c208542a41b839d5fa3e9692a67799c7245012bd4",
+   "bytes": 2712650,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house5_2025.csv": {
+   "sha256": "e38fea4ed32746e3c6ca931457925c4a84889bc7cd6fc80835ca59286bee23e5",
+   "bytes": 2704933,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house6_2020.csv": {
+   "sha256": "6961c38eca901d7afa3e20fd7276ff65516a3bc23f70ec24da1150e546227558",
+   "bytes": 2727307,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house6_2021.csv": {
+   "sha256": "9b94fd4a15901232ca8a1feaf1d1a858db3e5557d05900b8b505f8223b11f6cb",
+   "bytes": 2719210,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house6_2022.csv": {
+   "sha256": "0d79ac919f25380803c7f40358f2cfcf9fb66edbe2afa6fd6cbf84f7b0146dde",
+   "bytes": 2719025,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house6_2023.csv": {
+   "sha256": "31717f0adf5734d80cc94e0f747fbfb6932af69ffd300c018ad6d8fbb4bb224f",
+   "bytes": 2719055,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house6_2024.csv": {
+   "sha256": "ea1425352121275f2c77aadf86c2dfd11780bfdaa5a84536496c6d0522b88015",
+   "bytes": 2726300,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house6_2025.csv": {
+   "sha256": "18d713cbd47fefae1fa4ab1c1b4cd90811f5c5f7032907545e54401620d92dde",
+   "bytes": 2719295,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house7_2020.csv": {
+   "sha256": "3edf34b0adfec2714ef90db3636f23fd2fd3a52945c2f9fef0378700f6623775",
+   "bytes": 2725774,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house7_2021.csv": {
+   "sha256": "cd2c7be68db33d0410d4e7277d4ae154e035a66ebc41db9753a60364c38936f6",
+   "bytes": 2718284,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house7_2022.csv": {
+   "sha256": "e084896d6f9f3a51e1cede9c1fe69759e7c8f7078593f526ca53851fc6011803",
+   "bytes": 2718563,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house7_2023.csv": {
+   "sha256": "97ec02b85d25e3a38d33b89dae09f826365d25042fa9cbf41e06e05e98680d57",
+   "bytes": 2718394,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house7_2024.csv": {
+   "sha256": "9c725cfbb151f24707a979f3174fc05d306c04d8f66772cc0e6084ac9f3073ea",
+   "bytes": 2726168,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house7_2025.csv": {
+   "sha256": "fd5fec75f952bec44e866040c0f194b6adff92f99d70d0bcd39125cff3a1d10e",
+   "bytes": 2718192,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house8_2020.csv": {
+   "sha256": "8e9da9ae37b3a6c38e7fb9e21c7fbf2abccc38cce76778219168bf52ab5cafe7",
+   "bytes": 2717901,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house8_2021.csv": {
+   "sha256": "bb5a26e680d64e5c84e588794ca7329b31e02b9f010c9b8b5f9aded2e7099a92",
+   "bytes": 2710765,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house8_2022.csv": {
+   "sha256": "3ca4f6802c9dd0fbadaf6cd07efdbcc3ddbe57b2eba395c06d97a94bd860af7c",
+   "bytes": 2710157,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house8_2023.csv": {
+   "sha256": "829ca880c98af08042087583f98bddab3c30b309322ffa8b5af405b5bf666265",
+   "bytes": 2709526,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house8_2024.csv": {
+   "sha256": "aa3d15e98d44d4057152ca4cd8071b4c9034a8cdf853f3757ca5642eb5684e0f",
+   "bytes": 2717415,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_house8_2025.csv": {
+   "sha256": "aa1519650d1bc7e92149365e43a43f0bc9572a6605dd370b3e6721da12384c63",
+   "bytes": 2709602,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/draws/draws_meta.json": {
+   "sha256": "01833c4140fd3a219b570777f36fb0a157c9c99862279b583667a507a73de63d",
+   "bytes": 43169,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/README.md": {
+   "sha256": "ec640693808c7c77d5e0ed4cf8f4940f5ea9c7abad6ab7e32c7d4b5791d401a6",
+   "bytes": 16588,
+   "group": "sweden_v1"
+  },
+  "sweden/stems_sweden_data_v1/sources/betsi-v2.zip": {
+   "sha256": "f9124daf3d25ce3089cfb989efcaa0642b79ed60b60943a197effcc635c0201e",
+   "bytes": 1022698,
+   "group": "sweden_sources"
+  },
+  "sweden/stems_sweden_data_v1/sources/beskrivning-_betsi.pdf": {
+   "sha256": "10da932c02bfb4b694f5f0c081107ed288864fb6679ee2f2af104ba09c2f0c67",
+   "bytes": 91487,
+   "group": "sweden_sources"
+  },
+  "sweden/stems_sweden_data_v1/sources/dvut_1991_2020.csv": {
+   "sha256": "a203c31bebce0527c52f930f93c3a963e2c7d8452b068ee91158c10b9cd68fdc",
+   "bytes": 60060,
+   "group": "sweden_sources"
+  },
+  "sweden/stems_sweden_data_v1/sources/spot_raw/spot_SE1_raw.csv.gz": {
+   "sha256": "7a880dcb9d1dfb7f0ba1988355ca5fe55209bf661f5ca3bd165fd81ad6b9bdd9",
+   "bytes": 481099,
+   "group": "sweden_sources"
+  },
+  "sweden/stems_sweden_data_v1/sources/spot_raw/spot_SE2_raw.csv.gz": {
+   "sha256": "e5050e1bf8ee2c09c5c279bd7807898496b3e8dff58beec0a4d778a605b92443",
+   "bytes": 476801,
+   "group": "sweden_sources"
+  },
+  "sweden/stems_sweden_data_v1/sources/spot_raw/spot_SE3_raw.csv.gz": {
+   "sha256": "ec15ba5893901aa22d56081b6f9524feb8eab8e47108fe8085dbe46e6a610cd0",
+   "bytes": 501145,
+   "group": "sweden_sources"
+  },
+  "sweden/stems_sweden_data_v1/sources/spot_raw/spot_SE4_raw.csv.gz": {
+   "sha256": "8247f9b4ad44f8f4d5c8e496a95222a7f28e82de90ba262901dcfa289aad8012",
+   "bytes": 506094,
+   "group": "sweden_sources"
+  },
+  "sweden/packages/karlstad_2022/buildings/H01.json": {
+   "sha256": "886b55957975d0f2167e411940b6aa1f92ac201c81f1752763330f21fe002898",
+   "bytes": 953,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2022/buildings/H02.json": {
+   "sha256": "3487c6fa6878e93cdf1569545f79ce896c07dcc380c5b53994273a70df2617af",
+   "bytes": 956,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2022/buildings/H03.json": {
+   "sha256": "19ccade7afb1bca0c944e159e79f66c491652fcb28dbd02f2d82699c0394530e",
+   "bytes": 957,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2022/buildings/H04.json": {
+   "sha256": "08954ccab19320fe6401149ee8c17787c21a1f412a150955dd558c749e2e8556",
+   "bytes": 954,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2022/buildings/H05.json": {
+   "sha256": "440503312d0da4b80ee6740d33de7a4f22ffe6c2638a82cc17eaf82ccf20190c",
+   "bytes": 957,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2022/buildings/H06.json": {
+   "sha256": "74f879e2e501d5e09e8e2f698d5d4cb89e09875ed188a495fc5620b15151d6fc",
+   "bytes": 973,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2022/buildings/H07.json": {
+   "sha256": "e1c30cface49b2cb6c0edb1f2be84a21af7bc4b9e8d6b7c480e1ca4920c604bc",
+   "bytes": 975,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2022/buildings/H08.json": {
+   "sha256": "5cd5f3baf3bb4a4ecf4e3023ebbe5ab1c9ff872530240c50221f32fea56c4b22",
+   "bytes": 975,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2022/cold_water.csv": {
+   "sha256": "9e28ff9c14c43641fb71761cae4e051ba3368dfd4fc8734df740b9b3aa2f6ce5",
+   "bytes": 285469,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2022/draws/H01.csv": {
+   "sha256": "fa1d8ad7786e8ccffaddaa12a90c160e0d5dd95c06d3ed8963f36cea9ea498ca",
+   "bytes": 3293069,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2022/draws/H02.csv": {
+   "sha256": "29b456ccd997375b4b8fc2a58a1bd8cea2777d9f38c4a2cd27a0d7f2a7647825",
+   "bytes": 3310719,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2022/draws/H03.csv": {
+   "sha256": "7fd63319ca4e51df3426ebb348d2a17b3cdcf2830cf181476b8e97fdcd8412a7",
+   "bytes": 3320567,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2022/draws/H04.csv": {
+   "sha256": "bd2c582b4584d247cc59e7653638b6c79408b55967a35710fe28ca0f793d4b1a",
+   "bytes": 3342315,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2022/draws/H05.csv": {
+   "sha256": "96f8e324c58c9175faafd86adde6ff18461971500664db8d27b7a41cdfb40265",
+   "bytes": 3348687,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2022/draws/H06.csv": {
+   "sha256": "13d181d611fcd2b0221b2618cae62b6167f9d9aac89f7b474b89c219636e938f",
+   "bytes": 3365296,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2022/draws/H07.csv": {
+   "sha256": "80c926a52d9444ceb3a16d6be6ef26d92e18ca0be1f9f204bc2229d210891e4b",
+   "bytes": 3364689,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2022/draws/H08.csv": {
+   "sha256": "2742e01ea3fd5fa9b570ee3c2d7f8c1ae1df43b78b626ad8d0433a2aa2f62125",
+   "bytes": 3354977,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2022/manifest.json": {
+   "sha256": "65ac869d95b1053990a0e8764ab06f9911fd012e2d850f823eafaa459a7862dd",
+   "bytes": 2553,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2022/price.csv": {
+   "sha256": "ee69bd65770c9d7f49b844d64abed618254386c8d763eb8c7bd9f4be0a0aa1e5",
+   "bytes": 374525,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2022/weather.csv": {
+   "sha256": "88410212ca318020cf19940ccdca4047c4ba82eecb3a5ca8566a316f69db949d",
+   "bytes": 323912,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2023/buildings/H01.json": {
+   "sha256": "886b55957975d0f2167e411940b6aa1f92ac201c81f1752763330f21fe002898",
+   "bytes": 953,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2023/buildings/H02.json": {
+   "sha256": "3487c6fa6878e93cdf1569545f79ce896c07dcc380c5b53994273a70df2617af",
+   "bytes": 956,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2023/buildings/H03.json": {
+   "sha256": "19ccade7afb1bca0c944e159e79f66c491652fcb28dbd02f2d82699c0394530e",
+   "bytes": 957,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2023/buildings/H04.json": {
+   "sha256": "08954ccab19320fe6401149ee8c17787c21a1f412a150955dd558c749e2e8556",
+   "bytes": 954,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2023/buildings/H05.json": {
+   "sha256": "440503312d0da4b80ee6740d33de7a4f22ffe6c2638a82cc17eaf82ccf20190c",
+   "bytes": 957,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2023/buildings/H06.json": {
+   "sha256": "74f879e2e501d5e09e8e2f698d5d4cb89e09875ed188a495fc5620b15151d6fc",
+   "bytes": 973,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2023/buildings/H07.json": {
+   "sha256": "e1c30cface49b2cb6c0edb1f2be84a21af7bc4b9e8d6b7c480e1ca4920c604bc",
+   "bytes": 975,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2023/buildings/H08.json": {
+   "sha256": "5cd5f3baf3bb4a4ecf4e3023ebbe5ab1c9ff872530240c50221f32fea56c4b22",
+   "bytes": 975,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2023/cold_water.csv": {
+   "sha256": "ff02e6e24a0afc9e4772816eb1611e5d866c9f8e832209b17f4d28bc8be3fb15",
+   "bytes": 285469,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2023/draws/H01.csv": {
+   "sha256": "3a4cacdc41f85b1bab31ea54c521b5108708d10953fca0196d850a554e145fca",
+   "bytes": 3292809,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2023/draws/H02.csv": {
+   "sha256": "70a852cb13a17a6e0c1619ae80becacd09617b6d35c85dd8b8af8fdfff2b9734",
+   "bytes": 3310966,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2023/draws/H03.csv": {
+   "sha256": "6839a24f300af1bc97425b744fad28daf0e743bfc4e0140c9a1ba46a221ba77e",
+   "bytes": 3320423,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2023/draws/H04.csv": {
+   "sha256": "ffb5a928b681cb43a24ef6ba0b48945732f31e882b9ec7225eba7727f9dd76c3",
+   "bytes": 3342301,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2023/draws/H05.csv": {
+   "sha256": "fed650c22a9fe7af7db28b9c843749783a111046cbf8e55f836cae510ccef687",
+   "bytes": 3348207,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2023/draws/H06.csv": {
+   "sha256": "8c107a04b6faed3ccc2737eea609c3bef1f1ff6d22aa48357f8566b13c5aae11",
+   "bytes": 3365142,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2023/draws/H07.csv": {
+   "sha256": "062fae8998335b3076d97a09291cd8c2072fb73a13a0bc4be6f2c55ce647bd17",
+   "bytes": 3364599,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2023/draws/H08.csv": {
+   "sha256": "075e5fa4a40658c8e8dc59d5f899d8c383f874a31ddb9cfc296d8e3f5734345e",
+   "bytes": 3354125,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2023/manifest.json": {
+   "sha256": "1dc083f8b399438b5f7f9fb10959c3bbbf3112ad82d1ef583674e72a23d3d35b",
+   "bytes": 2553,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2023/price.csv": {
+   "sha256": "ee6295c0880be23af4282c5cb18f93cc40d399e6873f07850833e02ef82321f0",
+   "bytes": 374729,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2023/weather.csv": {
+   "sha256": "13a3bf71c7ef85acf15ecb63e29cd70cabd1389c78ed56a77d4b88c15383f3fe",
+   "bytes": 324159,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2024/buildings/H01.json": {
+   "sha256": "886b55957975d0f2167e411940b6aa1f92ac201c81f1752763330f21fe002898",
+   "bytes": 953,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2024/buildings/H02.json": {
+   "sha256": "3487c6fa6878e93cdf1569545f79ce896c07dcc380c5b53994273a70df2617af",
+   "bytes": 956,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2024/buildings/H03.json": {
+   "sha256": "19ccade7afb1bca0c944e159e79f66c491652fcb28dbd02f2d82699c0394530e",
+   "bytes": 957,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2024/buildings/H04.json": {
+   "sha256": "08954ccab19320fe6401149ee8c17787c21a1f412a150955dd558c749e2e8556",
+   "bytes": 954,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2024/buildings/H05.json": {
+   "sha256": "440503312d0da4b80ee6740d33de7a4f22ffe6c2638a82cc17eaf82ccf20190c",
+   "bytes": 957,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2024/buildings/H06.json": {
+   "sha256": "74f879e2e501d5e09e8e2f698d5d4cb89e09875ed188a495fc5620b15151d6fc",
+   "bytes": 973,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2024/buildings/H07.json": {
+   "sha256": "e1c30cface49b2cb6c0edb1f2be84a21af7bc4b9e8d6b7c480e1ca4920c604bc",
+   "bytes": 975,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2024/buildings/H08.json": {
+   "sha256": "5cd5f3baf3bb4a4ecf4e3023ebbe5ab1c9ff872530240c50221f32fea56c4b22",
+   "bytes": 975,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2024/cold_water.csv": {
+   "sha256": "c4bc96c8af2c291edd923376385100df3069b970bbc1df7233b4c051ddd7ade5",
+   "bytes": 286237,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2024/draws/H01.csv": {
+   "sha256": "86d6ee08f33c507874f842799610cead8e52ff14f8c41ec410cccc4ba2589b66",
+   "bytes": 3302282,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2024/draws/H02.csv": {
+   "sha256": "c0b86ab338e9f0430a0bebe27bc78d81c9a57a5a6a4a073e42997a345c46efa3",
+   "bytes": 3320367,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2024/draws/H03.csv": {
+   "sha256": "36b69da5fc4f102f824ecd52e129d0b4630033f8728efcd57863239f7d00dd06",
+   "bytes": 3329297,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2024/draws/H04.csv": {
+   "sha256": "bcba1ea4c98ad1a0c39a5a7c987168f3cc0712d51b1585503440335c8df0d234",
+   "bytes": 3351178,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2024/draws/H05.csv": {
+   "sha256": "54264e888e37c4183705bd012b13cc31acec90ab72a3cdb20c9ed8161261d726",
+   "bytes": 3358399,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2024/draws/H06.csv": {
+   "sha256": "2b71157d66647db3c2bc2d874dd42f789a1020a5d8e0b685e49bab77efac7134",
+   "bytes": 3374223,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2024/draws/H07.csv": {
+   "sha256": "aaf598532bdc1074b6fc02730e9ec88dc855afbd83a6c63fbe3aa28535f61342",
+   "bytes": 3374315,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2024/draws/H08.csv": {
+   "sha256": "a7e8338eda9fce7e0615b18600782fa0c334d5f418221176a82a85071f82db8c",
+   "bytes": 3363753,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2024/manifest.json": {
+   "sha256": "5b713fd8a0db7cb74cc9e8db4323a22160eed71d62e9a3eeeaaf78c7b32d7fda",
+   "bytes": 2553,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2024/price.csv": {
+   "sha256": "64a452a054b9b18c1d284169d8ffcbd4a06af7a5b61dfbc8aa52d568a1614d66",
+   "bytes": 375517,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2024/weather.csv": {
+   "sha256": "0ad39d8d006047a62efe6257253e7961a53ce267c9e43b664853c19e2b0931a2",
+   "bytes": 324628,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2025/buildings/H01.json": {
+   "sha256": "886b55957975d0f2167e411940b6aa1f92ac201c81f1752763330f21fe002898",
+   "bytes": 953,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2025/buildings/H02.json": {
+   "sha256": "3487c6fa6878e93cdf1569545f79ce896c07dcc380c5b53994273a70df2617af",
+   "bytes": 956,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2025/buildings/H03.json": {
+   "sha256": "19ccade7afb1bca0c944e159e79f66c491652fcb28dbd02f2d82699c0394530e",
+   "bytes": 957,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2025/buildings/H04.json": {
+   "sha256": "08954ccab19320fe6401149ee8c17787c21a1f412a150955dd558c749e2e8556",
+   "bytes": 954,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2025/buildings/H05.json": {
+   "sha256": "440503312d0da4b80ee6740d33de7a4f22ffe6c2638a82cc17eaf82ccf20190c",
+   "bytes": 957,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2025/buildings/H06.json": {
+   "sha256": "74f879e2e501d5e09e8e2f698d5d4cb89e09875ed188a495fc5620b15151d6fc",
+   "bytes": 973,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2025/buildings/H07.json": {
+   "sha256": "e1c30cface49b2cb6c0edb1f2be84a21af7bc4b9e8d6b7c480e1ca4920c604bc",
+   "bytes": 975,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2025/buildings/H08.json": {
+   "sha256": "5cd5f3baf3bb4a4ecf4e3023ebbe5ab1c9ff872530240c50221f32fea56c4b22",
+   "bytes": 975,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2025/cold_water.csv": {
+   "sha256": "d7ce1977507dfa63c858dd6421b48b760b34b6fba29dc7e46c24d496e1e87c28",
+   "bytes": 285469,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2025/draws/H01.csv": {
+   "sha256": "6648d52db7d84b4dc3f02aed740b4845b9ba3d6d153cfd9a2546906a6d05af17",
+   "bytes": 3292877,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2025/draws/H02.csv": {
+   "sha256": "328d9f4f27838116a720824f9a07708b2a448f6a45a7e98b800621a037ad5f48",
+   "bytes": 3311781,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2025/draws/H03.csv": {
+   "sha256": "1de3516ebbc42daac606260d556e6ac1faaf1cd262563cc8a558eedca2943264",
+   "bytes": 3320670,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2025/draws/H04.csv": {
+   "sha256": "f62a19648ef2995e7dee59c22ae4feff346ba5c2d840973dfcd6ab105f337a08",
+   "bytes": 3342050,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2025/draws/H05.csv": {
+   "sha256": "77551a7080a1432f34e6f2c671cb7b0b1db95860d6270f64865e4f3aeee37277",
+   "bytes": 3348870,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2025/draws/H06.csv": {
+   "sha256": "f78f58e8758989d9ed902379dded0108215bf77269e50c7db994edd8b1c0f053",
+   "bytes": 3365589,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2025/draws/H07.csv": {
+   "sha256": "500696ed6a07de5eba0c8e8254b37005adfdd99cd1aae6ca1589cb6d87ce7217",
+   "bytes": 3364355,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2025/draws/H08.csv": {
+   "sha256": "7df97e53daed5561143fa64066a4d9f9785a9a3048c37def02bc9e32011b83db",
+   "bytes": 3354170,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2025/manifest.json": {
+   "sha256": "8a916fb08048582280ac0122f2f47513dad5bfa45aa6474fd3ae9a218a188937",
+   "bytes": 2553,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2025/price.csv": {
+   "sha256": "7e28b59c9576fd0f2b5b1180e3139b0647601ec1fd2311d693ada52edd9bba93",
+   "bytes": 374864,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/karlstad_2025/weather.csv": {
+   "sha256": "a274961e2cf11b5bcc97e26dd5a7cfd0475232b92db4e231aec112f59e7b3316",
+   "bytes": 323671,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2022/buildings/H01.json": {
+   "sha256": "571da826e0cb38e96fdde79f60b786be48c05f7347858f94c12eba3ad018fe80",
+   "bytes": 954,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2022/buildings/H02.json": {
+   "sha256": "3c2a0bb7b5091d8f5681cfaafca5bd7ba3abab10c58fd135e3cf3e3dd0c10b9f",
+   "bytes": 955,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2022/buildings/H03.json": {
+   "sha256": "22fb1f135751fae65219e8bdb40f80f48c11d82ff5c8818e99b7aadbf6bcf8b8",
+   "bytes": 958,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2022/buildings/H04.json": {
+   "sha256": "9d3b5845603dd6278e3d60de6c7267050447bc9c2be53553d2aac004b3fd9bdd",
+   "bytes": 955,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2022/buildings/H05.json": {
+   "sha256": "69b891deaa502761beb1e96ce5cc4999969d60cfaf33b2f7e8355052087ffbec",
+   "bytes": 958,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2022/buildings/H06.json": {
+   "sha256": "ef9c6d2a53a5078c09b8719d3079939462ece772d2c1494fb3322f1188a5f23e",
+   "bytes": 973,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2022/buildings/H07.json": {
+   "sha256": "9fe4ae8b2b94fb95afa5eafee496392efde2b6c3eb66d47876ba24fa2e1a18cb",
+   "bytes": 975,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2022/buildings/H08.json": {
+   "sha256": "3645432c9e143e6346439065e97d508e71c4bc8b894b261968090e804014bf9b",
+   "bytes": 975,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2022/cold_water.csv": {
+   "sha256": "8b83440844da2364f46e6182ccfa9be548bbf53687755800fcfc2a86e5e265a9",
+   "bytes": 282541,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2022/draws/H01.csv": {
+   "sha256": "8244304d4bec66f2016767321c2db9156c4fc03dc287890af65b09e1dec2e776",
+   "bytes": 3292818,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2022/draws/H02.csv": {
+   "sha256": "84ee3e9a934a03fef342e6ef41821623b69b899577473a5c494d3928b696710e",
+   "bytes": 3310277,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2022/draws/H03.csv": {
+   "sha256": "b25823be0e786eb18666f50563df8778c760595656b361a892431115030f9379",
+   "bytes": 3320067,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2022/draws/H04.csv": {
+   "sha256": "64a48bb66ba0b30b83593fa81b18cb00c47d4af696e1bca4a9df9eb731e18cc6",
+   "bytes": 3341633,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2022/draws/H05.csv": {
+   "sha256": "df303bd9eb037f727be147ef3d2893ec5ba4734eaf7ad2dedb45f1c47bf2184d",
+   "bytes": 3347980,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2022/draws/H06.csv": {
+   "sha256": "998f793d35783159f70fe509ee48b558a05fdae6f894487e7d6c8baabcd7a782",
+   "bytes": 3364498,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2022/draws/H07.csv": {
+   "sha256": "38c319317d0cfa6a9868c489bc45fe71724638994cd1d86fb087cceff4c10b46",
+   "bytes": 3363809,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2022/draws/H08.csv": {
+   "sha256": "7ce9cf0e5cf1b03d7523b5ea2fd124b9582f9c71861bf1357a6211ab4f28f786",
+   "bytes": 3354294,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2022/manifest.json": {
+   "sha256": "cd71a2187b6a37bfa603b234920dff1455039d08bdd0369aca1d45420358e4ca",
+   "bytes": 2543,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2022/price.csv": {
+   "sha256": "0644947b037d9c4b46a1a50e6450f53200653e9a49cb205b0d2dbb8268f34d1d",
+   "bytes": 374577,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2022/weather.csv": {
+   "sha256": "4c246170887bda52fb5ed755a31ebf28e997c88d2940191eb039c3c28f41e603",
+   "bytes": 325199,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2023/buildings/H01.json": {
+   "sha256": "571da826e0cb38e96fdde79f60b786be48c05f7347858f94c12eba3ad018fe80",
+   "bytes": 954,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2023/buildings/H02.json": {
+   "sha256": "3c2a0bb7b5091d8f5681cfaafca5bd7ba3abab10c58fd135e3cf3e3dd0c10b9f",
+   "bytes": 955,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2023/buildings/H03.json": {
+   "sha256": "22fb1f135751fae65219e8bdb40f80f48c11d82ff5c8818e99b7aadbf6bcf8b8",
+   "bytes": 958,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2023/buildings/H04.json": {
+   "sha256": "9d3b5845603dd6278e3d60de6c7267050447bc9c2be53553d2aac004b3fd9bdd",
+   "bytes": 955,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2023/buildings/H05.json": {
+   "sha256": "69b891deaa502761beb1e96ce5cc4999969d60cfaf33b2f7e8355052087ffbec",
+   "bytes": 958,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2023/buildings/H06.json": {
+   "sha256": "ef9c6d2a53a5078c09b8719d3079939462ece772d2c1494fb3322f1188a5f23e",
+   "bytes": 973,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2023/buildings/H07.json": {
+   "sha256": "9fe4ae8b2b94fb95afa5eafee496392efde2b6c3eb66d47876ba24fa2e1a18cb",
+   "bytes": 975,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2023/buildings/H08.json": {
+   "sha256": "3645432c9e143e6346439065e97d508e71c4bc8b894b261968090e804014bf9b",
+   "bytes": 975,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2023/cold_water.csv": {
+   "sha256": "11e2493114980124ce4c602156cf16a290724817344ee6030dc2188f264b39cb",
+   "bytes": 282541,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2023/draws/H01.csv": {
+   "sha256": "c7e41f186d3c71dc8cc6f283e3697a84b3fd7c9edf97f523741b0d9ee969119d",
+   "bytes": 3292506,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2023/draws/H02.csv": {
+   "sha256": "c96792f7da0656c956cd2fa4df5924b00486628ec6bc8d67567de7b9de16085f",
+   "bytes": 3310507,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2023/draws/H03.csv": {
+   "sha256": "917471d142f0bb698deae9f9bc99b86e3e8d48d380e85423b9503120039fcfcb",
+   "bytes": 3319875,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2023/draws/H04.csv": {
+   "sha256": "ed83ba40d3b7517c36b0fe233556f24bfbe0cb8fd4b54536b0d694cae0b001f2",
+   "bytes": 3341620,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2023/draws/H05.csv": {
+   "sha256": "5fbb240cbc8b6ae6a22fca500b01f4437e8a0b79b7440e4b755e8433f8cd4ee8",
+   "bytes": 3347539,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2023/draws/H06.csv": {
+   "sha256": "91e85aca868379a4591f51a8f1a841cd6478af60971d2308075897e6ca894c60",
+   "bytes": 3364396,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2023/draws/H07.csv": {
+   "sha256": "968223fd39dc9d46ba8bc4ea46a7b6dc6bb0186e45fd099d13ae1d67522dc7fe",
+   "bytes": 3363760,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2023/draws/H08.csv": {
+   "sha256": "efe1f9d90e85dc0b42d33305d4e761cc0a8dba5fdf26a4a7305f1d208bc35475",
+   "bytes": 3353367,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2023/manifest.json": {
+   "sha256": "bea41f0dae0baef3348dfdb68a670ab48896d9698ba515a7c6432f1eabedf2e7",
+   "bytes": 2543,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2023/price.csv": {
+   "sha256": "b27c0e7d7811552ab2f199790312340d7c7c00c67ef66df95cb4ef5add0b8c78",
+   "bytes": 374713,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2023/weather.csv": {
+   "sha256": "96122f5245bb18130fe1e3ac32a26bcc1c1c11c599b0a3d11c6179ad3d11c432",
+   "bytes": 326218,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2024/buildings/H01.json": {
+   "sha256": "571da826e0cb38e96fdde79f60b786be48c05f7347858f94c12eba3ad018fe80",
+   "bytes": 954,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2024/buildings/H02.json": {
+   "sha256": "3c2a0bb7b5091d8f5681cfaafca5bd7ba3abab10c58fd135e3cf3e3dd0c10b9f",
+   "bytes": 955,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2024/buildings/H03.json": {
+   "sha256": "22fb1f135751fae65219e8bdb40f80f48c11d82ff5c8818e99b7aadbf6bcf8b8",
+   "bytes": 958,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2024/buildings/H04.json": {
+   "sha256": "9d3b5845603dd6278e3d60de6c7267050447bc9c2be53553d2aac004b3fd9bdd",
+   "bytes": 955,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2024/buildings/H05.json": {
+   "sha256": "69b891deaa502761beb1e96ce5cc4999969d60cfaf33b2f7e8355052087ffbec",
+   "bytes": 958,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2024/buildings/H06.json": {
+   "sha256": "ef9c6d2a53a5078c09b8719d3079939462ece772d2c1494fb3322f1188a5f23e",
+   "bytes": 973,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2024/buildings/H07.json": {
+   "sha256": "9fe4ae8b2b94fb95afa5eafee496392efde2b6c3eb66d47876ba24fa2e1a18cb",
+   "bytes": 975,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2024/buildings/H08.json": {
+   "sha256": "3645432c9e143e6346439065e97d508e71c4bc8b894b261968090e804014bf9b",
+   "bytes": 975,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2024/cold_water.csv": {
+   "sha256": "0f9a0a8c055e690c796866fe478049c001ff65137bddbcf1a903ca9774bb9499",
+   "bytes": 283309,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2024/draws/H01.csv": {
+   "sha256": "c4680f65c780746cb9c660bab5ccc8f6b8d102ac2712809da577dec25b3ffe7f",
+   "bytes": 3301987,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2024/draws/H02.csv": {
+   "sha256": "fe0d3b030ea68fa0b6658f114e8aba2acb912ab6c6bf3b6daf140b143d3526f3",
+   "bytes": 3320003,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2024/draws/H03.csv": {
+   "sha256": "16da3f30c6729c231d2f98c7ee2da63417a039a810924d81178cffb26e5a8bd3",
+   "bytes": 3328828,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2024/draws/H04.csv": {
+   "sha256": "b866e65e6afcc2d448d220dc6c6d566dfc68cafc479731bd77ba468e4569f9d5",
+   "bytes": 3350560,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2024/draws/H05.csv": {
+   "sha256": "6b578f6dd7128dac601d4dfa34148b5eefee0d4875391a1be605c51322d6a474",
+   "bytes": 3357714,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2024/draws/H06.csv": {
+   "sha256": "8982ecb1aad53fb30f6c43e3616e307a37b33f15de9f39f8a19d611fd9953344",
+   "bytes": 3373454,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2024/draws/H07.csv": {
+   "sha256": "fe36e15078acc9d7f72353076a985ca71aef62c05c632f3ec084c9d82d5fd0bb",
+   "bytes": 3373515,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2024/draws/H08.csv": {
+   "sha256": "811412c1611b2cfc9838595f203ef5df4698ac848f07389ad5aa14344f9f2092",
+   "bytes": 3363025,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2024/manifest.json": {
+   "sha256": "3cb96100a141827c0f420966d4a6c022dd9603099ed127fe6303be67429e9c0b",
+   "bytes": 2543,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2024/price.csv": {
+   "sha256": "7b8fd4a005e8352090a6d419bf5546d37e63a51c947bc237d708fc6bce2c54d0",
+   "bytes": 375473,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2024/weather.csv": {
+   "sha256": "aaaa2cdc38274104200629bf2b3f8bf6eec963b60775925c461600ff4ee761bb",
+   "bytes": 326453,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2025/buildings/H01.json": {
+   "sha256": "571da826e0cb38e96fdde79f60b786be48c05f7347858f94c12eba3ad018fe80",
+   "bytes": 954,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2025/buildings/H02.json": {
+   "sha256": "3c2a0bb7b5091d8f5681cfaafca5bd7ba3abab10c58fd135e3cf3e3dd0c10b9f",
+   "bytes": 955,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2025/buildings/H03.json": {
+   "sha256": "22fb1f135751fae65219e8bdb40f80f48c11d82ff5c8818e99b7aadbf6bcf8b8",
+   "bytes": 958,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2025/buildings/H04.json": {
+   "sha256": "9d3b5845603dd6278e3d60de6c7267050447bc9c2be53553d2aac004b3fd9bdd",
+   "bytes": 955,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2025/buildings/H05.json": {
+   "sha256": "69b891deaa502761beb1e96ce5cc4999969d60cfaf33b2f7e8355052087ffbec",
+   "bytes": 958,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2025/buildings/H06.json": {
+   "sha256": "ef9c6d2a53a5078c09b8719d3079939462ece772d2c1494fb3322f1188a5f23e",
+   "bytes": 973,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2025/buildings/H07.json": {
+   "sha256": "9fe4ae8b2b94fb95afa5eafee496392efde2b6c3eb66d47876ba24fa2e1a18cb",
+   "bytes": 975,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2025/buildings/H08.json": {
+   "sha256": "3645432c9e143e6346439065e97d508e71c4bc8b894b261968090e804014bf9b",
+   "bytes": 975,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2025/cold_water.csv": {
+   "sha256": "8588757e8a118f4499f385335997c25cd3ddf3fada9114d5299102488ffba194",
+   "bytes": 282541,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2025/draws/H01.csv": {
+   "sha256": "83e21c7bd804e7da6b8e5883e781bd2b10d946c606908d1e0ec030e6a3dfbe73",
+   "bytes": 3292709,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2025/draws/H02.csv": {
+   "sha256": "6afbeb186aab468b626c9f2543161d8ba6cb452051edf7953b61f217e43750ff",
+   "bytes": 3311332,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2025/draws/H03.csv": {
+   "sha256": "869a12a1ed14c1ee9b112fab8702ccf2c35dcd458f400320c8efa2f279b14334",
+   "bytes": 3320139,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2025/draws/H04.csv": {
+   "sha256": "b1016d25b3ffe81fb537c4f6d3c58061b9752358c51c7684ed301cb78d20f12d",
+   "bytes": 3341372,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2025/draws/H05.csv": {
+   "sha256": "39f0fce748a3f8278ec08d19265931b8b857478d806953930caf1e4303fb2ad9",
+   "bytes": 3348194,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2025/draws/H06.csv": {
+   "sha256": "8b23f134f800af016546840bd5965c52dede6940d1e3377c6847939d97c9d838",
+   "bytes": 3364830,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2025/draws/H07.csv": {
+   "sha256": "936f77dc163cc3e66426cd9a46e7e3e858376bb3afb8fdc487f9e9c91e0563d9",
+   "bytes": 3363634,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2025/draws/H08.csv": {
+   "sha256": "9dc25bd8a035fa291046120113c2626acad5228ee1c9a7719e4352e13e65a68b",
+   "bytes": 3353467,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2025/manifest.json": {
+   "sha256": "5c78e06d8d04541822ce584e9dafc2523d140917dadf0059e4e50b0ae91cfe07",
+   "bytes": 2543,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2025/price.csv": {
+   "sha256": "b57ab1cc50e9ec549bc197fafce0617c147421b005659b0ca6d571e2e04e898a",
+   "bytes": 375074,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/lulea_2025/weather.csv": {
+   "sha256": "1b80f0d7bc4c0f470deeec7806b75ee6e7b27bc38d5ea5d73077968ca53a0b86",
+   "bytes": 324630,
+   "group": "sweden_packages"
+  },
+  "sweden/packages/validation.json": {
+   "sha256": "faf3521f952cc4f58eb915c6df17182419beba74989eecb3d4aca7caec699aca",
+   "bytes": 28670,
+   "group": "sweden_packages"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/dynamics_error_summary.csv": {
+   "sha256": "a4c967e0c0d59ba1a6c010ace56b4af52d53e748426b472efa8ec5c655c912b9",
+   "bytes": 73348,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-102188.csv": {
+   "sha256": "5cac92dd631f662216f405e67663ab0483397ab9ca50730a43392b838f14543c",
+   "bytes": 781174,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-102188.pth": {
+   "sha256": "2026a6c1cf5f406a2fdf57f5a29ae917e39e300238576ca0f27e94f9e683e04a",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-112223.csv": {
+   "sha256": "2e064c643a7c62486e221026ed9274746e1e84dd9f17cb4dc4694b31f66f5486",
+   "bytes": 756977,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-112223.pth": {
+   "sha256": "eff834b3fbf4c2ad7bbb9cca4961bcdb317322649d3d1eb6922928ff7ad18dc5",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-113808.csv": {
+   "sha256": "2065e4be3993933773f397af2dfd73f4b6920ba20ca5ff16a19f60442e6016c6",
+   "bytes": 748751,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-113808.pth": {
+   "sha256": "f891c36da2c394eedac4d07ac1ab61822c9113c8bad17c6be08ddbcc0eeaff63",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-120912.csv": {
+   "sha256": "ccc8565a5c1a8dc00aefad48cdbec03d3990eab7db57b4366049c5f494deae8e",
+   "bytes": 767944,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-120912.pth": {
+   "sha256": "939e508845e69dfb8ef99a4db108397d1b55900de03f8539f2280e834a5fc39e",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-123182.csv": {
+   "sha256": "58300d7d065b6a7467d049b67c01c97efd9d1948686deae74695e7d020a90a39",
+   "bytes": 764123,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-123182.pth": {
+   "sha256": "598de1a2dfe1a6651e54c6271867031c7e10c9e26b7c9dca3065e5b236cfafa7",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-133435.csv": {
+   "sha256": "033855a071329a4f6dba5677db97c355e8382866939f6b4652b76697a567e307",
+   "bytes": 753514,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-133435.pth": {
+   "sha256": "31fad8e55bdece6f71df1ad03cd67da2067bf9600836403cb5b76f427a37a62d",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-133518.csv": {
+   "sha256": "a4b2c02c15919c112d9a70d8b8de5eda761df1f49615a215c5f9fbd769bd84af",
+   "bytes": 755262,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-133518.pth": {
+   "sha256": "42b5556aea9845c8f9ff887666bd86006fb1431b9b37b191ab25bbd9144265e4",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-134795.csv": {
+   "sha256": "29c1913aee8db49d48bc0abfe14ddc329778a790e81f12512fdb5b3c9daec32a",
+   "bytes": 775075,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-134795.pth": {
+   "sha256": "8a1bcf46344573028fd8ba98839688af7a5a773ce9365803e43741bd81611116",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-136361.csv": {
+   "sha256": "dc8b3b9122a226651cfd7e47c068d27db569a78dd51bc44387424898d08109d6",
+   "bytes": 741078,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-136361.pth": {
+   "sha256": "bd6d53bbb1070b45ab65f723cb0daf71c1808d3a13fd403d87386eabe493e750",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-147029.csv": {
+   "sha256": "126caa7976009415a7bba024e3bc8bbebea22a6370171f83ebe15bf0ec20a37f",
+   "bytes": 756847,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-147029.pth": {
+   "sha256": "7f234f28fa37d55d1e2d86a3345f33fa94935246ac075736c6cd6fbec11da63b",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-153910.csv": {
+   "sha256": "ffe416115bf9eee8f446a77e651c9e1ea40269af1ba1f3b20e5da15c640f27d4",
+   "bytes": 765635,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-153910.pth": {
+   "sha256": "cc0a9c995d6dd7715e93eb06756395e67723554d2e67b16c3924087fbd0efb68",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-155572.csv": {
+   "sha256": "b8fd6b3b2424a78846ca09e425bf35538810d3d0046287f5c08c7f7be5a35edc",
+   "bytes": 769253,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-155572.pth": {
+   "sha256": "c0c11c414e7df92de38c5bb6c0c21ad937eb1162d764e49d74fb69bd3d153c1e",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-15942.csv": {
+   "sha256": "497fc45f1e1c212cd0e35671579d09873ad92b652440c02dd194ab4421c353d9",
+   "bytes": 773588,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-15942.pth": {
+   "sha256": "dcdf72e9b47b8417471eeebc673aeeaeace6ce1931c07ab123126008ea548049",
+   "bytes": 8440,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-166568.csv": {
+   "sha256": "f9a33d7b43431c84b67ac596a30839dce2bcd56d3e62020838c3fd92e2fcab11",
+   "bytes": 779467,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-166568.pth": {
+   "sha256": "87f96cbf7886502deeb6c700f11a8ec5d31077f1cecfdb6e66980f44b75a20b7",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-171136.csv": {
+   "sha256": "1e192ab18ab9b1aa30d2ec77ebaa311526fb15cb765e7c9b46b9399869d797ad",
+   "bytes": 741419,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-171136.pth": {
+   "sha256": "fe800ba231c851453ca66384012a87cfcc91669cb562e3feba92a31225675ed7",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-179005.csv": {
+   "sha256": "3587593dfeef99a83923acbd21c25028b942f8e57a67da6140a61207ede63239",
+   "bytes": 770191,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-179005.pth": {
+   "sha256": "0e01c541f5d8b46cb656708b85f7b29e22ee90fcf873e49df7c2841023f94ae7",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-192120.csv": {
+   "sha256": "34c66d5674a4a4edc18fdfdbb7e9b38ef5c1db6911461658b6a1a0464a09a03b",
+   "bytes": 747670,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-192120.pth": {
+   "sha256": "c40a6f841199c986f5e74a44d5a9c3db11806800d1817471ab0d0db4f8b8bbeb",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-203716.csv": {
+   "sha256": "05bf011f76fb6cc51f815d88ef021c9f81a8ba9e938fad6239f3bfa011fdd47c",
+   "bytes": 775529,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-203716.pth": {
+   "sha256": "96c439597b81d16de24b305478260f19089d634c8a67dc265da348b174118426",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-20687.csv": {
+   "sha256": "fa61c1e8520ed73f9f7f7790c219294d3838d28b655db79d47dcdb5d5c5f1a01",
+   "bytes": 766256,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-20687.pth": {
+   "sha256": "1de961d851b586a0a32bc2c067f7ff4127a764134ad537d617619d3e1b047e97",
+   "bytes": 8440,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-208044.csv": {
+   "sha256": "596051d69e55a89f1cd33fdd2f4f920505e797be4acb33e1f2175e2361da9241",
+   "bytes": 762026,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-208044.pth": {
+   "sha256": "aa1f4aabbb488fe6be91ca8caac7f2b94307f7fd3b2c9f1eeba26ff7efa90046",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-213471.csv": {
+   "sha256": "e9c392d3d20abba55792287de87937f8028df4982b185d8523500ea00ad8f749",
+   "bytes": 751371,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-213471.pth": {
+   "sha256": "b95af0765740eefc78fdcc484e07a46958020c0d1c7053b4057aeb5d1dc99844",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-21356.csv": {
+   "sha256": "1d0f07a283f891fca08d1c881446c53504630edf093600faa629cf9224ee8912",
+   "bytes": 766702,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-21356.pth": {
+   "sha256": "a26c32809abd646e91685d23abb3145e61a66d9bf0cce25d68c80faf8c7f0b5b",
+   "bytes": 8440,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-216680.csv": {
+   "sha256": "488bbe55f60a3032c3dbdf18ba16dcb808a7d5d843b864ee8958e2b7abc5c00d",
+   "bytes": 757948,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-216680.pth": {
+   "sha256": "8f77828b260a8952bbd1864e2bacb2e00e91ad4d789a55da88d3ceb9c72c9270",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-223548.csv": {
+   "sha256": "ae6c33e0aeef170c79df77c6b0ac5a4d48c4f05f8839ae334df35a192a57dc12",
+   "bytes": 681429,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-223548.pth": {
+   "sha256": "bec1bc0a5d3f430c2976b9a26277fcee3c6bd34c2f7d63f9e9a01c2449719073",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-224341.csv": {
+   "sha256": "12773ca3403aec1e41cecb1aac621c540f9164b5c5082d3cc7d2bd9cbf058a62",
+   "bytes": 757664,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-224341.pth": {
+   "sha256": "ca3a3afd3b8119c896a9a60c6741690c517bc178e6df722cda7e64a5b69ab278",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-227400.csv": {
+   "sha256": "2cac022a0a585656014ad1c641b72a2d6e486683f333f10c4fb8050dfaa72bf5",
+   "bytes": 766235,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-227400.pth": {
+   "sha256": "5f4a7dfaa286e0408c9b8df173138cb264186eb831f7ded8bd5770c7fbd6f62e",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-237652.csv": {
+   "sha256": "adc3c0dd6af7dc884655f372de7feb77a524e17cb8bd95443c7d1adf1f653343",
+   "bytes": 748511,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-237652.pth": {
+   "sha256": "577750182c9e515fcb03048813b7a0c80d8f3481c3e556c0d60dd183782cbf05",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-243797.csv": {
+   "sha256": "0700a2ce8ace9479ef8304e45e4bb86057c36bf8b8fd82820d80adf0f9c51671",
+   "bytes": 748970,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-243797.pth": {
+   "sha256": "c36414d5b13d4c9953c6337baa63d29408ccf7f36781c6dcee0ac5ff467ce7d9",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-248224.csv": {
+   "sha256": "41f3fa142692953574553a583369b2398229c41ed0f108d37ce040ce71a25026",
+   "bytes": 760559,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-248224.pth": {
+   "sha256": "86523829c68d9d0e81f42881d732191e1fe4e2a45a98dc5c95539d3d732d3d57",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-249373.csv": {
+   "sha256": "1fa84ed3d26d70bd49f02e940d94d2dcdb5dc16de2fb501e122b42e48aca68da",
+   "bytes": 753546,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-249373.pth": {
+   "sha256": "d21de3fc10ef3974be15cbd0e78f45f8d6b50588b0bf52b20748687f9244ec88",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-252982.csv": {
+   "sha256": "2369e5e5d09153c0a4393ce7d18f99c883c402d508cc1b672956c075cbae1bdb",
+   "bytes": 770794,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-252982.pth": {
+   "sha256": "c0d8b849a5d6af444aff5d777dc736e127a91916f12e61c4e491a56529e7c7fb",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-258438.csv": {
+   "sha256": "6f52653a9e1043fab0a3bf0b62ab9629ef62cba243c04f141f79d2a9fc0badb2",
+   "bytes": 747876,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-258438.pth": {
+   "sha256": "0cc122a43ce6189f940f470b9bd876e4af8a0ae8003abe5f9241b37981711cab",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-264250.csv": {
+   "sha256": "3fa875600452ef362d5f245bf04bdcccd9ce4ff954199379fa593444fbec832f",
+   "bytes": 761212,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-264250.pth": {
+   "sha256": "96a39d28acc43deb9b323233628ed7e9b90d70c66a4e2190d47afc1e202f4751",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-267773.csv": {
+   "sha256": "a746049ee563945337f1b62445a1961c375d61ca4a814211fdc71ee123a7c145",
+   "bytes": 771882,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-267773.pth": {
+   "sha256": "1ff752056f16f71ffbe48e6be82ad274d74593c8e13ad429ae179a2b35dc19a6",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-275175.csv": {
+   "sha256": "251ec342d3983c90695cb893ce444613cd46d3ab6f525f9d20ff46b85598f59a",
+   "bytes": 756099,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-275175.pth": {
+   "sha256": "5ab4e42147b643a21130129a8121f4918e7ff87b3cf718c93cb8ea42c02689b9",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-276878.csv": {
+   "sha256": "27448d2872c15c19518f9bca040ba21c3d19a23aa6ec3471c76fd5ec6570cbfa",
+   "bytes": 764963,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-276878.pth": {
+   "sha256": "3d7adde2fdfb1129bafdb2a26a4828ea58f0dec4911fd1f5354c2bc563e51755",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-280890.csv": {
+   "sha256": "3ad571c42be1c7c1c30413543b79a2fcbf3de05691e2c2e40d85fe025f0569bb",
+   "bytes": 755770,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-280890.pth": {
+   "sha256": "c183bdb29f815c2b8828aff9e1fc820998c60414d5c206590177a9c3896016f7",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-281166.csv": {
+   "sha256": "afe2e95686754bbe3b0770053268d992d7096f3f873c5a6f275b65f76d7afbd0",
+   "bytes": 751038,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-281166.pth": {
+   "sha256": "66526d57acd7e52fa4b31d7324c765db332e12e213dd0e3ec5f73d8cc43ad0e7",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-283562.csv": {
+   "sha256": "ef525beb0044f88691fbb32400685b22c30b4dd841a04d768c5991e893cf1ad0",
+   "bytes": 766980,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-283562.pth": {
+   "sha256": "ba7533e5892816b19593eb2371611d4c42ed6f5d15898eadf479ebf613fac227",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-284099.csv": {
+   "sha256": "5f4db646f08ea78e0d2e0c8557e6a0816ec5fcd989c31c35005a6f70c34231f4",
+   "bytes": 747613,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-284099.pth": {
+   "sha256": "48a221a737bd3ab7bd4c0fe2b1a5caf163d254e3ef3b875a192617ea414e36ed",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-290742.csv": {
+   "sha256": "49cfbb7b49bce69a2f03aa4140bc705137800633ef2cd690c30981ad8f55cad9",
+   "bytes": 764634,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-290742.pth": {
+   "sha256": "c3304f20f579b4a9280eb8252b48c7c7f60ac595c626b600a0139f2690ec894a",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-294190.csv": {
+   "sha256": "c032f74a08a4e709b0ecfb4d9b1a9a17f3b56bfcf8fb95a0a03fac009bdc4afc",
+   "bytes": 765348,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-294190.pth": {
+   "sha256": "7cdf485944aaccbf234147b2984c2fb5e51fb7e0ccd1ccdbdf0d4a710f85c499",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-294740.csv": {
+   "sha256": "d637779b45ddf010e61e1d8bf6585fd05eebb0d9279e3ba35fa9e4c89649336f",
+   "bytes": 771145,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-294740.pth": {
+   "sha256": "a397abb1b495158a7ed7f46cd1ceac48f077535cbaa4797c2869b5d3fc542be2",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-296934.csv": {
+   "sha256": "2ac3016dc0b990bf03ad92798f4a2d164f92efbe5e2074a274385cd2e4b19c30",
+   "bytes": 770162,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-296934.pth": {
+   "sha256": "e1aba53cee76fd3d1e223773fcb7e3bc0ad7b12d27dd3a2de2be54063b5886b4",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-297989.csv": {
+   "sha256": "fff41e475381eaf10acf960aeb6b304ed7e4722374bd632f94ea1709507978f4",
+   "bytes": 760144,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-297989.pth": {
+   "sha256": "da49c0e79085b50cd062b3d681a0d7d139cb775dae7b58b4d6168175935321ec",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-304920.csv": {
+   "sha256": "d14cf3e777951f5740f0dc6b09945107961b46d1453db9533aa3f49dd5984d2a",
+   "bytes": 756125,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-304920.pth": {
+   "sha256": "361344e6224077a25cc328e96266aeb487f922c0d27292ee8af5df9d67e8f737",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-305554.csv": {
+   "sha256": "7348fae4336fb9d117a7a04d551640d7b62fbce76b2268345c481ad6fe425414",
+   "bytes": 744550,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-305554.pth": {
+   "sha256": "61bf352239a592a95257825f1cff350405e42cb15ffd437d6c068d728a7439c1",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-307803.csv": {
+   "sha256": "65680a530a51af7c512ecd5c2bafe102dc18dfaa62831da03844c61a3ca334a5",
+   "bytes": 761192,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-307803.pth": {
+   "sha256": "bc11592d4ef17cf8233cb3dc13aaf346057455cc65acba392b3556a2235e2024",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-315536.csv": {
+   "sha256": "6821713c517cbdd5a1814657c353c37f57d32d29e31c07ed38a89a49fe1d3ad7",
+   "bytes": 758056,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-315536.pth": {
+   "sha256": "6622f305c1799d15cb97f464883a5625bdbd98031265e5cc85b292c67e1ab86e",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-321547.csv": {
+   "sha256": "4c561143df9c83a11edbcbabc946caa525fa36a73c3ccd96d02e66928c5275ae",
+   "bytes": 759112,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-321547.pth": {
+   "sha256": "46522195a7aeac93228727d98c7a9cedc105f73ed57f2028b183eb18f0500b4f",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-338399.csv": {
+   "sha256": "606189910cc4f1b5bfc19c2f36be1c3c26c10d046d680f7fcb41983cec1d21c1",
+   "bytes": 768630,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-338399.pth": {
+   "sha256": "ce9ffcdb188a378b4c730207aeeb4f419421acd5be29768b3d22ab572cc0b675",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-344233.csv": {
+   "sha256": "bcf4056891a520a7ceef1a8c52165ec408c3e8dccb80ae5192c37f12e83d1921",
+   "bytes": 758288,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-344233.pth": {
+   "sha256": "35205dd3f619011d04f13ad88d69593adbefe06e5d4da980416c784129f9b4e0",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-345731.csv": {
+   "sha256": "a905e7e770e7d0508b89b1eddd8f6fd9fb9854244604ab0c810b9ab6863b2031",
+   "bytes": 762507,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-345731.pth": {
+   "sha256": "36d858a4856bc812f6ed0d7bf49e4de40a92d56b66a49b91168725e25e827d3f",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-346066.csv": {
+   "sha256": "fd941222660e70553aa9f831e25d66ac07bd22b579b74913364a5735600e619d",
+   "bytes": 782461,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-346066.pth": {
+   "sha256": "93e66f278d73b6ecaa5a2ea78842598de5107f5fb0a0598cc983a2bd9ce01d63",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-358693.csv": {
+   "sha256": "dea2ec17122a9ecfb219007c238b6b7a8d6f883833cc523787e31a293684dad2",
+   "bytes": 734013,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-358693.pth": {
+   "sha256": "bb91dc9b87f4b8b1a7e6042fc750d4875aac6414d6e71fc76b38d8dd5fe10892",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-36456.csv": {
+   "sha256": "1f0fa2db3ba29bf33f96a7fec79b4cb9c632e885e952ea5d4a46164f5902bab9",
+   "bytes": 751255,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-36456.pth": {
+   "sha256": "f7ed777e22777e5c558639c96a4e6fb98ea3f5bfb6201d5f82828e60173bf367",
+   "bytes": 8440,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-373875.csv": {
+   "sha256": "9331aa437aeba0c172968befbd6eb54457f46f2a9e8ec1d64a877e38a0be76b0",
+   "bytes": 760932,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-373875.pth": {
+   "sha256": "ad9dfe64affb5462f57f2ac8cc20555055de26d38cfa7919abc04e197474c152",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-378790.csv": {
+   "sha256": "72b7c0f588c1ac33f9295ba26a8d7d37815cbee3bbf06d98aa80db0fc37e081e",
+   "bytes": 754239,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-378790.pth": {
+   "sha256": "2a8f466b17dde14665def47b5dd13dd444b312f44c9c8f97865b3d943402cf35",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-378943.csv": {
+   "sha256": "aa85c75ff802ec3cbe8e263644eb62834ddc89a98eac9bd6d7b41666d6f61422",
+   "bytes": 733179,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-378943.pth": {
+   "sha256": "a84f97774220af2649e9e8859c297cea47ec8e23a84aad5d25f235a5babd1fc4",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-379248.csv": {
+   "sha256": "6a48befb7b756fbc698ae3a4a36f67f9d881dfa3ecef27c2686f984516e34f59",
+   "bytes": 767874,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-379248.pth": {
+   "sha256": "355b1a59069ad9045dcc018f84217a726d1c9d440da5a726f1473a13b3624cff",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-380135.csv": {
+   "sha256": "f978c04070556c242285a94cab4895edff4ad2641ac387e29ffc0f77cb1b2ca1",
+   "bytes": 752030,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-380135.pth": {
+   "sha256": "24d045f99e823cbc320cc92ad70ebc4afd80cb463683de74191eafafde796778",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-389891.csv": {
+   "sha256": "d1fb27277df887893a1c020aae4259768035f19efd44921bf2dcb2c38b2ed7b0",
+   "bytes": 751935,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-389891.pth": {
+   "sha256": "12d57a587ed92b78629cb4dcf40e980dc21d9ea455af705206aa710dbff22e02",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-391687.csv": {
+   "sha256": "1f3d1435567bc90b4edd2420b621e1a5a132f049d831645a922e98a7b45d4fdf",
+   "bytes": 761230,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-391687.pth": {
+   "sha256": "1f00cbef3d73fc362f2460458c242f928f6cad9145b4fcb62d3e439fcc7f563f",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-394712.csv": {
+   "sha256": "c2cd802645d575e5643f0e472208783265a55f21bcdde7afbc6888ac7dfe583c",
+   "bytes": 742858,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-394712.pth": {
+   "sha256": "a5b1dccf904bb21623c9f0c08375c43eddaabd217b0fdbaa97de63df728095d5",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-400743.csv": {
+   "sha256": "2a3e6a3e7e976b46a43b9c058e07d27268619b0093bd5ef871ddc58a09e47873",
+   "bytes": 753390,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-400743.pth": {
+   "sha256": "60a7dd334203e414f3ba664be0bd57c1e8cf4ffca29c3b3ebc7762d2191ed769",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-400973.csv": {
+   "sha256": "3657d0b551ccbd00bd075ea5122318eb214053cc1ae0ee39df86cb69a81a749f",
+   "bytes": 758074,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-400973.pth": {
+   "sha256": "197f7c0ad943a90f0ef942f50a309dbf664a94fca79a554019d937db024ab367",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-401821.csv": {
+   "sha256": "284e97648f11aa98386fb1cda5f1224df3fd1dd42525f9bcdb3bf06ce2ac7dfb",
+   "bytes": 751185,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-401821.pth": {
+   "sha256": "b983a7a8d6659bd0b2c959956ead0521db42a709495e192dd7d8c9bb732e8749",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-406573.csv": {
+   "sha256": "4bd40b0cf1c001269d55e21c293003823c0a771d8cf2a98abc86f3447045fddf",
+   "bytes": 754545,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-406573.pth": {
+   "sha256": "a6cbec6af9ea1c21722d41306df2d9a75ce396247e9c10596f297a2ae0bbdec6",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-412815.csv": {
+   "sha256": "88a4d5970b0791cf4630a9a8400614d548f66f78423de154d3a1e53146476e5e",
+   "bytes": 774512,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-412815.pth": {
+   "sha256": "248eed9aff71de2a46eae4ee604e141f328f7f58f7fcaaffb2eb3b09b4b2c02f",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-419755.csv": {
+   "sha256": "1fdfcf4b5e73cdca7d518b8c1e10ba963691f641a71de3853fd12002418c79ed",
+   "bytes": 770824,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-419755.pth": {
+   "sha256": "f71fa44fd6d061f45a41990b5f5b40ed49bb1e8a76aed319c59a31dbdc45d678",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-427553.csv": {
+   "sha256": "1029738de66b13cdb2f75feab9a64073a7d169698c3485fe247e1d5ad8a07711",
+   "bytes": 765789,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-427553.pth": {
+   "sha256": "a8cc237e8c4a23f611cde483834b8945577d4c2ed5ca68698ca785fd7c124bfd",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-43845.csv": {
+   "sha256": "caa76b21f59e46275317333d7d3ef4f071dfa1017fd7764f2499f66cfba4dc2d",
+   "bytes": 733190,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-43845.pth": {
+   "sha256": "7acc8a44837069596c08d3f4a3ea60664a54024ac19e1235f5de7a7f836ae3ed",
+   "bytes": 8440,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-449318.csv": {
+   "sha256": "945888e5e3d05cc911a5dadb3b6cdbc65743ca489387d193ab192f6a4262a778",
+   "bytes": 758519,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-449318.pth": {
+   "sha256": "556089a59a424842131e1e106832b75652da9e793a5c8e113af01ec261f66d91",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-46421.csv": {
+   "sha256": "1cd1387b50c913f376181b89904b4952363b955d0b64c6d8f69af51b98bbe26e",
+   "bytes": 754398,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-46421.pth": {
+   "sha256": "b76862ef8c54249be47458b818408e7946df11e21f6a6c1e4f2e4ee0d909dabb",
+   "bytes": 8440,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-471221.csv": {
+   "sha256": "f9e40dfcf8134f1e3ad8b8b4a9d2725077456a0c9acab5f5bcb400edcfbf6f03",
+   "bytes": 752702,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-471221.pth": {
+   "sha256": "ef5100f25ea87f36c8985a79e01f99d1d9b69eba7800d110981334cf87614dd1",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-474782.csv": {
+   "sha256": "f81560eb20adc1204b4d93a699a755065753218f3c3a7acbf2fd1ac5c8da5538",
+   "bytes": 763972,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-474782.pth": {
+   "sha256": "92f81d02f94c3c60c795081468475a8ae466ae93611716d0ed79cd98cf5cf346",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-479537.csv": {
+   "sha256": "9b638d441256865cb478af9d995e2ed0f18ac9fe6c2c73dfeb31c7964ca86569",
+   "bytes": 769937,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-479537.pth": {
+   "sha256": "4dea441942ff1fc1794fb3c3981b540adab9740387c807ff815f54eaefee5dca",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-484143.csv": {
+   "sha256": "ef8d4a6ccdaaf2781d89a3459e8f30f0cba1987194e957f07033157b5c282a81",
+   "bytes": 764466,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-484143.pth": {
+   "sha256": "84767bfd4e9dbd06429fb793c611493d624852774d86b0d7ed3d4f490fb08d05",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-486996.csv": {
+   "sha256": "47e1597040d791069275fbb45037ee5ef6c19eaed24239224c92d771d9f8d384",
+   "bytes": 743282,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-486996.pth": {
+   "sha256": "c00424df597168ea8db57a213d6d5ad13bcd8117a50ba5b529328eb31efe5fbb",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-494842.csv": {
+   "sha256": "dc6bbac00135e2e848391dfb0e5b1561ef0745d1ac0ac1f14ef6954984d83441",
+   "bytes": 755776,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-494842.pth": {
+   "sha256": "a5b5e56a0ae126f36dd178c7c4a599f0339976f2cf4251f7857870953bd78189",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-50879.csv": {
+   "sha256": "be47927d88553cfe162b1298b967606423be60362edfea639d940b8181524d52",
+   "bytes": 759055,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-50879.pth": {
+   "sha256": "111d7b10514431615b0ab7258a9fdf7bf0d5b4158ae50e7ca55b034de580e53b",
+   "bytes": 8440,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-511164.csv": {
+   "sha256": "7ff232633b12bd3321f5184d475de7be68e2702404f9f6f0171c73b61da1aacf",
+   "bytes": 768483,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-511164.pth": {
+   "sha256": "bd2012fc5e963369cdae8e6eec2d8ef87191180cfeab595bd24f0f68800de220",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-512011.csv": {
+   "sha256": "1e516d0f5705768b0186301a061f3e30e8a76d9317740c407a308de687468ef2",
+   "bytes": 774311,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-512011.pth": {
+   "sha256": "3b98c7d2335dc219c6b0b18565b07d212db8bb5b2f6c96cf488c696bd60b2cb9",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-512927.csv": {
+   "sha256": "e42e1aab1bd41fb1ee25c9a610bca39fd2f37c3832a28d39f3b06a4bcadd0c04",
+   "bytes": 746865,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-512927.pth": {
+   "sha256": "76927d8930856ee8d80139333186d78a8f0404677d48d619775ee208f9763dfe",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-519975.csv": {
+   "sha256": "be465ad672ad75c0ef692f50563bce69859925165fb893319b051b42f3c94dee",
+   "bytes": 765480,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-519975.pth": {
+   "sha256": "7b57259d724e324b68148f251a5924a15181bceecfe544ae2944e57c0f464776",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-523457.csv": {
+   "sha256": "5069edf8ba598b5117e40a60d05257deed78db4ed1c0c1b0eefbaa5d90af758b",
+   "bytes": 759608,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-523457.pth": {
+   "sha256": "408854c24b253a43e2b2886a2a1cc602bfe98fb484905f013917d0dbef737264",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-537787.csv": {
+   "sha256": "f8d07ea904427b550250ffd7018b805e04af2629a979a803a9698658ace40bf3",
+   "bytes": 759674,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-537787.pth": {
+   "sha256": "d3f2c2722a7e2d418e443ad06a6fcb32e68552706a93c44337fecd9ed5b4dcb5",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-537891.csv": {
+   "sha256": "383096f2ffb4d56c7f727be81b19ffd719696fcde16ad34e6ed88b403ace6ca7",
+   "bytes": 766281,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-537891.pth": {
+   "sha256": "c616380c4bb38ea93646b0a115caa2a15fce8821da393ca4bfb9e8a2e5f8f6e2",
+   "bytes": 8966,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-63192.csv": {
+   "sha256": "42a320c69bf3e8bc484f173c35cfbd7eaba975a114bf8f336b6852b1ab2329a7",
+   "bytes": 785637,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-63192.pth": {
+   "sha256": "4da4435878ff18fa371c73bb6b4c31d26f34cca4b0b214d3159dfc3bfbeb1b9e",
+   "bytes": 8440,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-68142.csv": {
+   "sha256": "9af43352e158996ac2be0c883cdc1ab09f1d0b1147f1991471547d34bf54a783",
+   "bytes": 770666,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-68142.pth": {
+   "sha256": "c264996b1e8138dc8d7c3fe13d7e98762625c3a0c44329d94f93a5851bf7b051",
+   "bytes": 8440,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-6887.csv": {
+   "sha256": "42758f583b3f7e27e56569f0f149a5d696e2b2e445378692743b77e37e92d2aa",
+   "bytes": 715101,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-6887.pth": {
+   "sha256": "850e5a17ec7ab000e5e95a6c7c2a5c6ffb32743411b897b201c13d3ff9ba821d",
+   "bytes": 8426,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-71553.csv": {
+   "sha256": "95923fcab5fca2ebe97fd6be60651369a91330d5c8a559375ba3db6b4b418c99",
+   "bytes": 769968,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-71553.pth": {
+   "sha256": "6ba5df5c71106e2d96e20f9e18d63dd1d337110ab6b183f1fc89a4e7f2723799",
+   "bytes": 8440,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-85296.csv": {
+   "sha256": "0e202026b322b8e75eca4b2b7d597246634222d945e50f9e586e8796e35070d7",
+   "bytes": 765020,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-85296.pth": {
+   "sha256": "ed621178bfb2dc24fa47dd5919027098b395a25fc74916267bb3a0a651c0c1ae",
+   "bytes": 8440,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-88708.csv": {
+   "sha256": "2d346938573e44d87a753f7520fddfd40e43a775a50a81757d5d5eb15961580e",
+   "bytes": 755079,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-88708.pth": {
+   "sha256": "cb187e7fed9f3d531a3095e934e161ebe1f2615b4719b8cb199b184cdf54c6ad",
+   "bytes": 8440,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-92392.csv": {
+   "sha256": "bff2e4d27d863fa44213b720f86d0ccbaa5e19a563db2788a19d5e240dfef9ba",
+   "bytes": 741793,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-92392.pth": {
+   "sha256": "31a53c244b89f65ec44232ebfffbc26dcd716dbd04512d44742b91cac09b59e0",
+   "bytes": 8440,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-94184.csv": {
+   "sha256": "421d92bc39f0285dc31a7dfebc5a86c6fc0b8b8a208020e1db302f28692bee94",
+   "bytes": 760595,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-94184.pth": {
+   "sha256": "b1e7c29d5dcc32f78eed2a567da0f9423a5ca310140dbfe06a8d34c1e40e5731",
+   "bytes": 8440,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-96102.csv": {
+   "sha256": "9cc9f6cd600cdba1bffe4e15a2c5d96bdda95ca993e1ad4fe0931a05e255588f",
+   "bytes": 768266,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-96102.pth": {
+   "sha256": "d9563df0b6486b814c760ce1ce2322d4f74c10aab6e4db5cd28f9dd8ba01e8e6",
+   "bytes": 8440,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-97045.csv": {
+   "sha256": "8ef6aaaaf0c5d6aa21570339ba9250f0c06cd330b2860e346d314ee64b59c7fe",
+   "bytes": 760488,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-97045.pth": {
+   "sha256": "1f97b74d51c4a72b54b082b592e565c3666333410105b7360332f8eff6599380",
+   "bytes": 8440,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-97674.csv": {
+   "sha256": "6b58c1179772949300aa6e322ea91f7e11d1821603beeb9894cc0295b5036680",
+   "bytes": 746115,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-97674.pth": {
+   "sha256": "3b296c033e325de997901d63fdfdbab8d54d348765fa8635aeef3c736dac79df",
+   "bytes": 8440,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-99758.csv": {
+   "sha256": "be0902c3e82bad6c9a33863153716c9ac642997b12116d05ff5cb6b020e15658",
+   "bytes": 741322,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/resstock-amy2018-2021-release-1-99758.pth": {
+   "sha256": "5f0702d9761e078205f36ee25fc0b69a651ab8352e3a187f954f960fb33677ac",
+   "bytes": 8440,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/schema.json": {
+   "sha256": "83ff14fe3fa5df50d20dcdc60c957757edc5587e49e7585656da1f280af36645",
+   "bytes": 265916,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/weather.csv": {
+   "sha256": "177f64b9c1fda0b60db96af80cf7c8040994d11670745f73866ca016b8e2d80d",
+   "bytes": 1037240,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/tx_travis_county_neighborhood/weather.epw": {
+   "sha256": "773c3121925ae1a5aa4a311d092416385eba338bd879cd512d7b8bcda49bd927",
+   "bytes": 1976260,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/citylearn_challenge_2022_phase_all/Building_1.csv": {
+   "sha256": "7c80028c65f636dfdaea168447fddc1cd71da4cc16329e2e0fba1f723d2c916e",
+   "bytes": 349473,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/citylearn_challenge_2022_phase_all/Building_10.csv": {
+   "sha256": "d8e4abd5d71ce889423e3239244940ed1c7f7efd0312b17c313ec138883739a4",
+   "bytes": 350339,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/citylearn_challenge_2022_phase_all/Building_11.csv": {
+   "sha256": "c836eed05a64c8d1b1b1e01292f0dd1c4e41f884b5567020a8047af98fe506c9",
+   "bytes": 348376,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/citylearn_challenge_2022_phase_all/Building_12.csv": {
+   "sha256": "699e9a57a866d6e657974df00439f904b3775cd5bed64768704dd0bf4a8fdc83",
+   "bytes": 370583,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/citylearn_challenge_2022_phase_all/Building_13.csv": {
+   "sha256": "77a0bb52f706c32a67938e4db02796ac8ad16f97ab8665eb748a4d1824f0fbe2",
+   "bytes": 348311,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/citylearn_challenge_2022_phase_all/Building_14.csv": {
+   "sha256": "07f855121c0084552925579e7e33cf128050745b97e989a227570ef4e1470a1b",
+   "bytes": 353946,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/citylearn_challenge_2022_phase_all/Building_15.csv": {
+   "sha256": "67c4c0f78d4598394838b3ba3b853d84b3712de46022bd2aa56ab51b76873606",
+   "bytes": 350365,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/citylearn_challenge_2022_phase_all/Building_16.csv": {
+   "sha256": "16da28c7e6ea9bd496945e3e2d402d10aac6a1f71840b0f691a7539165ca0486",
+   "bytes": 347298,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/citylearn_challenge_2022_phase_all/Building_17.csv": {
+   "sha256": "cab102276853fce3455b2d21f3d8435e5381079de59a34390985d1f8bb9893c6",
+   "bytes": 347470,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/citylearn_challenge_2022_phase_all/Building_2.csv": {
+   "sha256": "9742af5be4e83606b0f0c9a83ecc6312b860a049cbced7e6142a169769b57cf9",
+   "bytes": 349891,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/citylearn_challenge_2022_phase_all/Building_3.csv": {
+   "sha256": "981b24cd13fdfc1ffc688fa7a96e83e138be073b5ec3e27cd4ce3e457bbe87f1",
+   "bytes": 351295,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/citylearn_challenge_2022_phase_all/Building_4.csv": {
+   "sha256": "eff80b585e2e839b95f591914c83e6daefad01884ab8acdd381cc0ba5134a530",
+   "bytes": 349144,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/citylearn_challenge_2022_phase_all/Building_5.csv": {
+   "sha256": "0579790ee34c11b8ba6b7430e1b85d0506353399da76621d018b552f8d5d62d9",
+   "bytes": 351598,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/citylearn_challenge_2022_phase_all/Building_6.csv": {
+   "sha256": "ead9a4c2a6c5ca2526dbf747584a84c06d5990eb62c9482db607dc5719c02176",
+   "bytes": 352804,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/citylearn_challenge_2022_phase_all/Building_7.csv": {
+   "sha256": "d140651d84c05dbd1f9a32a17fba5aaa21204685d37d508ebd17398783ccd1dc",
+   "bytes": 355960,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/citylearn_challenge_2022_phase_all/Building_8.csv": {
+   "sha256": "a912f82d8e11aef7e40f6e1af087ac975c5d41dd570dbba50eb5ac0a5f715db5",
+   "bytes": 350323,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/citylearn_challenge_2022_phase_all/Building_9.csv": {
+   "sha256": "9be368c246f58050f56fc64d31df2966be2e74127aade0b330b2c40849ca08d6",
+   "bytes": 350744,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/citylearn_challenge_2022_phase_all/carbon_intensity.csv": {
+   "sha256": "3f54295997075a3643a7e5ddee8d8b56fc1c63531ab4387cac77ae1888e1dd93",
+   "bytes": 95442,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/citylearn_challenge_2022_phase_all/pricing.csv": {
+   "sha256": "bb94629d83146658c38015ebf8dade815c2557cd8a6c1abb7e1edc5012a483c6",
+   "bytes": 169776,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/citylearn_challenge_2022_phase_all/schema.json": {
+   "sha256": "b1c3546de688298f428ca61d6300826dba0f73147534d3953b9378db789db6c3",
+   "bytes": 17828,
+   "group": "citylearn_datasets"
+  },
+  "citylearn/datasets/citylearn_challenge_2022_phase_all/weather.csv": {
+   "sha256": "a8b6b70d10fd854b211d63b9376e364f21d227d78ece4fadc38b09d47bb0a75f",
+   "bytes": 690512,
+   "group": "citylearn_datasets"
+  },
+  "schemas/tx_travis_8b/schema.json": {
+   "sha256": "6f75ea56e31b1f789227c105a6b0e18bb98f4f867b0326dd4853f5e78c16eb7a",
+   "bytes": 268232,
+   "group": "citylearn_schemas"
+  },
+  "schemas/tx_travis_8b_ev/charger_1_1.csv": {
+   "sha256": "f6bf6226a90b029c86f733fa1cb1101b8feb32acc9afd1f47046c0f65810c03e",
+   "bytes": 224900,
+   "group": "citylearn_schemas"
+  },
+  "schemas/tx_travis_8b_ev/charger_2_1.csv": {
+   "sha256": "4eb4e0b94e353c064c33f87d13a188df5faa5fb0b9b0835c63d79f6d07596a5d",
+   "bytes": 224114,
+   "group": "citylearn_schemas"
+  },
+  "schemas/tx_travis_8b_ev/charger_3_1.csv": {
+   "sha256": "d734f81209cabb3f8fef0149aabf4a00dfad8f208f0919c0f2433c45f3c340c6",
+   "bytes": 226006,
+   "group": "citylearn_schemas"
+  },
+  "schemas/tx_travis_8b_ev/charger_4_1.csv": {
+   "sha256": "02a7e6591ec1585505b3042374f9c2c47bc8e4f788ef7e6aa21e6cfea46c31ed",
+   "bytes": 224552,
+   "group": "citylearn_schemas"
+  },
+  "schemas/tx_travis_8b_ev/charger_5_1.csv": {
+   "sha256": "c1744b35814d02336820e4b09c38cfffafdc3970efab10314e99d01ba7305081",
+   "bytes": 226565,
+   "group": "citylearn_schemas"
+  },
+  "schemas/tx_travis_8b_ev/charger_6_1.csv": {
+   "sha256": "d2cad5f2174a0f27201484625108aa85a307f252efb4f91108c2589dcbd17eb0",
+   "bytes": 225722,
+   "group": "citylearn_schemas"
+  },
+  "schemas/tx_travis_8b_ev/schema.json": {
+   "sha256": "4e4f6e0a5de80fdd6765f08e181d9f9f14559f7dc5d7c0f6c8157384438ba244",
+   "bytes": 274347,
+   "group": "citylearn_schemas"
+  }
+ }
+}

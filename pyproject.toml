@@ -1,0 +1,47 @@
+[project]
+name = "thermia-safe-marl"
+version = "0.1.0"
+description = "Safe multi-agent control of ground-source heat pumps and hot-water tanks under shared power limits"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Mohamed Yassine Ben Zekri" }]
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "citylearn",
+    "numpy==1.26.4",
+    "pandas==2.2.3",
+    "scipy==1.13.1",
+    "scikit-learn==1.2.2",
+    "torch==2.5.1",
+    "gymnasium==0.28.1",
+    "cvxpy==1.6.0",
+    "matplotlib==3.9.2",
+    "pyyaml==6.0.2",
+    "simplejson==3.19.3",
+    "platformdirs==4.3.6",
+    "requests==2.32.3",
+    "pygfunction==2.3.1",
+    "secondarycoolantprops==1.5",
+    "holidays==0.61",
+    "OpenDHW==0.2.9",
+    "nrel-pysam==6.0.1",
+    "pytest==8.3.3",
+]
+
+[tool.uv]
+package = false
+python-preference = "only-managed"
+override-dependencies = [
+    "openstudio; sys_platform == 'never'",
+    "doe-xstock; sys_platform == 'never'",
+    "torchvision; sys_platform == 'never'",
+]
+
+[tool.uv.sources]
+citylearn = { url = "https://github.com/garyhost2/CityLearn/archive/7f62933fea157aaed45c90bca43ef72a8aaf99b4.tar.gz" }
+torch = [{ index = "pytorch-cpu", marker = "sys_platform != 'darwin'" }]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
