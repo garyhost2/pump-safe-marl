@@ -958,7 +958,7 @@ wheels = [
 ]
 
 [[package]]
-name = "thermia-safe-marl"
+name = "pump-safe-marl"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [

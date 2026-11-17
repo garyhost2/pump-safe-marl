@@ -45,4 +45,4 @@ CITYLEARN_COMMIT = "7f62933fea157aaed45c90bca43ef72a8aaf99b4"
 CITYLEARN_TARBALL = f"https://github.com/garyhost2/CityLearn/archive/{CITYLEARN_COMMIT}.tar.gz"
 CITYLEARN_DATASETS = ["tx_travis_county_neighborhood", "citylearn_challenge_2022_phase_all"]
 
-USER_AGENT = "thermia-safe-marl data_pipeline (research; contact via repository)"
+USER_AGENT = "pump-safe-marl data_pipeline (research; contact via repository)"

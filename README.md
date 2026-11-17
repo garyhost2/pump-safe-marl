@@ -1,4 +1,4 @@
-# thermia-safe-marl
+# pump-safe-marl
 
 Safe multi-agent control of ground-source heat pumps and hot-water tanks under a shared power limit.
 
@@ -21,7 +21,7 @@ no git and no graphics card are needed. The installer brings everything it uses.
 
 ### 1. Get the code
 
-- **With git:** `git clone https://github.com/garyhost2/thermia-safe-marl.git`
+- **With git:** `git clone https://github.com/garyhost2/pump-safe-marl.git`
 - **Without git:** on the GitHub page click **Code → Download ZIP**, then unzip it.
 
 The repository is private: you must be signed in to GitHub with an account that has been given access.
