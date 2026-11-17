@@ -24,8 +24,6 @@ no git and no graphics card are needed. The installer brings everything it uses.
 - **With git:** `git clone https://github.com/garyhost2/pump-safe-marl.git`
 - **Without git:** on the GitHub page click **Code → Download ZIP**, then unzip it.
 
-The repository is private: you must be signed in to GitHub with an account that has been given access.
-
 ### 2. Run the installer
 
 **Linux or macOS.** Open a terminal in the folder and run:
