@@ -918,7 +918,7 @@ The 50-episode grid finished: 31 runs, 12 h 20 min. Every arm below runs 50 epis
 $\lambda_{\text{indoor}} = 0.4$ on the reference stock, 5 seeds, scored by the same code.
 
 ![Zero violations at about 0.82 cost is reachable three ways; the architecture is not
-what gets you there.](/home/garyhost/.claude-science/orgs/2d09ad52-6d5d-45f4-b713-ed2083d72648/artifacts/proj_8715d4e0f118/702e6ac9-8163-47d0-9d0a-f205a6763c06/vaced9a4c_fig_safety_frontier.png)
+what gets you there.](figures/fig_safety_frontier.png)
 
 | controller | cost | sd | emission | peak | consumption | ramping | discomfort | violations |
 |---|---|---|---|---|---|---|---|---|
@@ -953,7 +953,7 @@ transfer is the result; the architecture around it is not.
 each an independent implementation of a published method, none of them ours.
 
 ![The shield removes 62 to 94 points of violation for a mean cost of +0.1 per
-cent.](/home/garyhost/.claude-science/orgs/2d09ad52-6d5d-45f4-b713-ed2083d72648/artifacts/proj_8715d4e0f118/61020276-cde2-491d-9b1d-08b09ee3f6f5/ve031f526_fig_shield_transfer.png)
+cent.](figures/fig_shield_transfer.png)
 
 | policy | cost, no shield | cost, shielded | $\Delta$ | $p$ | violations, no shield | violations, shielded |
 |---|---|---|---|---|---|---|
